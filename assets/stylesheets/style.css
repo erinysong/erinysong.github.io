@@ -136,7 +136,7 @@ html {
 }
 
 .img-grid {
-  padding: 20px 0;
+  padding: 10px 0;
   max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
@@ -162,6 +162,10 @@ html {
 
 .work-item {
   padding-bottom: 10px;
+}
+
+.col-md-4 {
+  padding: 0 5px;
 }
 
 .center {
