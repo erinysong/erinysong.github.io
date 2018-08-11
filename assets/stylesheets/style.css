@@ -160,6 +160,12 @@ html {
   font-weight: normal;
 }
 
+.work-item p {
+  margin-left: 5px;
+  font-size: 14px;
+  font-weight: normal;
+}
+
 .work-item {
   padding-bottom: 10px;
 }
@@ -196,6 +202,11 @@ html {
 
 .resume-section {
   margin-bottom: 50px;
+}
+
+.front-image {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media only screen and (max-width: 400px) {
