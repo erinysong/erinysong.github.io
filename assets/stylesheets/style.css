@@ -3,6 +3,11 @@ html {
   overflow-y: scroll; 
 }
 
+@font-face {
+    font-family: Proxima Nova;
+    src: url(proximanova-regular.otf);
+}
+
 .navbar {
   width: 100%;
   margin-bottom: 60px;
@@ -188,7 +193,8 @@ html {
 }
 
 .body-text {
-  font-family: "Proxima Nova", Montserrat, sans-serif;
+  font-family: Proxima Nova;
+  font-weight: thin;
   font-size: 16px;
   color: black;
   padding-bottom: 15px;
@@ -203,7 +209,8 @@ html {
 }
 
 .work-text p {
-  font-family: "Proxima Nova", Montserrat, sans-serif;
+  font-family: Proxima Nova;
+  font-weight: 200;
   color: black;
   padding-bottom: 15px;
   line-height: 1.5;
