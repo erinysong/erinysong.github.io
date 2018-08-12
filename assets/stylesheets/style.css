@@ -20,6 +20,7 @@ html {
 .navbar-brand {
   font-size: 24px;
   font-family: Karla, Helvetica Neue;
+  padding: 0 15;
 }
 
 .navbar-default {
@@ -101,7 +102,7 @@ html {
 }
 
 .intro-block {
-  margin-bottom: 50px;
+  margin-bottom: 25px;
 }
 
 .intro-large-text {
@@ -120,7 +121,8 @@ html {
 }
 
 .intro-small-text {
-  font-family: Raleway;
+  font-family: Assistant;
+  font-weight: 300;
   font-size: 1.5em;
   color: black;
 }
@@ -129,15 +131,7 @@ html {
   text-align: center;
 }
 
-.home-header {
-  margin-top: 25px;
-  text-align: center;
-  font-family: Lato;
-  font-weight: 750;
-}
-
 .img-grid {
-  padding: 10px 0;
   max-width: 1000px;
   margin-left: auto;
   margin-right: auto;
@@ -193,25 +187,92 @@ html {
   padding-bottom: 20px;
 }
 
-.about-text {
-  font-family: Open Sans;
+.body-text {
+  font-family: Proxima Nova;
   font-size: 16px;
   color: black;
   padding-bottom: 15px;
   line-height: 1.5;
 }
 
-.resume-section {
+.work-block {
   margin-bottom: 50px;
-}
-
-.front-image {
   margin-left: auto;
   margin-right: auto;
+  max-width: 900px;
+}
+
+.work-text p {
+  font-family: Proxima Nova;
+  color: black;
+  padding-bottom: 15px;
+  line-height: 1.5;
+  max-width: 650px;
+  font-size: 18px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.work-header h3 {
+  font-size: 24px;
+  font-family: Karla;
+  font-weight: 900;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.work-text h4 {
+  font-size: 20px;
+  font-family: Karla;
+  font-weight: 600;
+  margin-left: auto;
+  margin-left: auto;
+  margin-bottom: 15px;
+  margin-top: 25px;
+}
+
+.work-header {
+  text-align: center
+}
+
+.work-block hr {
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 0;
+  max-width: 1000px;
+}
+
+.work-img {
+  max-width: 900px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.work-text h4 {
+  text-align: center;
 }
 
 @media only screen and (max-width: 400px) {
   .about-img {
     float: none;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .work-text p {
+    margin-left: 125px;
+    margin-right: 125px;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .work-header {
+    text-align: none;
+    margin-right: 300px;
+  }
+
+  .work-text h4 {
+    text-align: none;
+    margin-right: 300px;
   }
 }
