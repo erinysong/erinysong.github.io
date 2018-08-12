@@ -188,7 +188,7 @@ html {
 }
 
 .body-text {
-  font-family: Proxima Nova;
+  font-family: Proxima Nova, Assistant, sans-serif;
   font-size: 16px;
   color: black;
   padding-bottom: 15px;
@@ -203,7 +203,7 @@ html {
 }
 
 .work-text p {
-  font-family: Proxima Nova;
+  font-family: Proxima Nova, Assistant, sans-serif;
   color: black;
   padding-bottom: 15px;
   line-height: 1.5;
