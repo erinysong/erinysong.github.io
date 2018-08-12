@@ -193,7 +193,7 @@ html {
 }
 
 .body-text {
-  font-family: Proxima Nova;
+  font-family: Proxima Nova, Lato, sans-serif;
   font-size: 18px;
   color: black;
   padding-bottom: 15px;
@@ -208,7 +208,7 @@ html {
 }
 
 .work-text p {
-  font-family: Proxima Nova;
+  font-family: Proxima Nova, Lato, sans-serif;
   font-weight: 200;
   color: black;
   padding-bottom: 15px;
