@@ -252,6 +252,10 @@ html {
   text-align: center;
 }
 
+.home-redirect {
+  font-size: 24px;
+}
+
 @media only screen and (max-width: 400px) {
   .about-img {
     float: none;
