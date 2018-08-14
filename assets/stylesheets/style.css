@@ -30,7 +30,8 @@ html {
 
 .navbar-default {
   background-color: white !important;
-  border-color: white !important;
+  background-image: none;
+  background-repeat: no-repeat;
 }
 
 .img-grid a {
