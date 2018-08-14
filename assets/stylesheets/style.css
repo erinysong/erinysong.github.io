@@ -29,8 +29,8 @@ html {
 }
 
 .navbar-default {
-  background-color: white;
-  border-color: white;
+  background-color: white !important;
+  border-color: white !important;
 }
 
 .img-grid a {
