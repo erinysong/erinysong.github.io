@@ -75,6 +75,8 @@ html {
   background-color: #ffffff;
   text-decoration: underline;
   font-weight: 800;
+  background-image: none;
+  background-repeat: no-repeat;
 }
 
 .navbar ul {
