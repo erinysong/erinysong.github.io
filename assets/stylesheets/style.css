@@ -299,5 +299,6 @@ html {
 }
 
 @media only screen and (min-width: 1200px) {
-
+  .work-header {
+    margin-right: 0;
 }
