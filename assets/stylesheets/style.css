@@ -130,14 +130,14 @@ html {
 
 .intro-large-text {
   font-family: Open Sans;
-  font-size: 2.5em;
+  font-size: 36px;
   font-weight: 900;
   color: black;
 }
 
 .resume-header {
   font-family: Open Sans;
-  font-size: 2.5em;
+  font-size: px;
   font-weight: 900;
   color: black;
   text-align: center;
@@ -146,7 +146,7 @@ html {
 .intro-small-text {
   font-family: Assistant;
   font-weight: 300;
-  font-size: 1.5em;
+  font-size: 24px;
   color: black;
 }
 
@@ -187,7 +187,7 @@ html {
 
 .work-item {
   padding-top: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 5px;
 }
 
 .work-item:hover {
@@ -297,6 +297,10 @@ html {
 
 .indented {
   padding-left: 25px;
+}
+
+#footerwrap {
+  max-width: 100%;
 }
 
 @media only screen and (max-width: 400px) {
