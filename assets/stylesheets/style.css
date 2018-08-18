@@ -263,17 +263,30 @@ html {
   margin-top: 10px;
   margin-bottom: 20px;
   margin-left: 0;
-  max-width: 1000px;
+  width: 100%;
 }
 
-.work-img {
-  max-width: 900px;
+.mockup-img {
+  max-width: 650;
   margin-bottom: 30px;
   margin-top: 30px;
 }
 
+.work-img { 
+  display: block;
+  width: 30%;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .work-text h4 {
   text-align: center;
+}
+
+.indented {
+  padding-left: 25px;
 }
 
 @media only screen and (max-width: 400px) {
@@ -283,20 +296,8 @@ html {
 }
 
 @media only screen and (min-width: 1000px) {
-  .work-text p {
-    margin-left: 125px;
-    margin-right: 125px;
-  }
 }
 
 @media only screen and (min-width: 1200px) {
-  .work-header {
-    text-align: none;
-    margin-right: 300px;
-  }
 
-  .work-text h4 {
-    text-align: none;
-    margin-right: 300px;
-  }
 }
