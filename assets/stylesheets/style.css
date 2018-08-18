@@ -176,6 +176,7 @@ html {
   margin-left: 5px;
   font-size: 16px;
   font-weight: normal;
+  font-color: black;
 }
 
 .work-item p {
@@ -185,7 +186,16 @@ html {
 }
 
 .work-item {
+  padding-top: 10px;
   padding-bottom: 10px;
+}
+
+.work-item:hover {
+  background-color: #f2f2f2;
+}
+
+.work-link h4 {
+  color: black;
 }
 
 .col-md-4 {
@@ -231,7 +241,7 @@ html {
   color: black;
   padding-bottom: 15px;
   line-height: 1.5;
-  max-width: 650px;
+  max-width: 70%;
   font-size: 18px;
   margin-left: auto;
   margin-right: auto;
@@ -292,6 +302,12 @@ html {
 @media only screen and (max-width: 400px) {
   .about-img {
     float: none;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .work-text p {
+    max-width: 100%;
   }
 }
 
