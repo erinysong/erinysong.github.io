@@ -7,7 +7,7 @@ body {
   height: 100%;
   background-color: white;
   margin: 0px 0px 0px 0px;
-  font-family: system-ui, "Helvetica Neue", BlinkMacSystemFont, sans-serif;
+  font-family: system-ui, "Roboto", BlinkMacSystemFont, sans-serif;
 }
 
 p {
@@ -20,7 +20,19 @@ h2 {
 }
 
 h3 {
-  font-size: 28px;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+  color: #546270;
+  outline: 0;
+  transition: all all 150ms;
+}
+
+.p > a {
+  border-bottom: 1px solid #e6e9eb !important;
 }
 
 @font-face {
@@ -147,6 +159,7 @@ h3 {
 #intro-about-block {
   background-color: white;
   transition: all 0.3s;
+  max-width: 900px;
 }
 
 #about-header {
@@ -158,10 +171,8 @@ h3 {
 }
 
 #now-header-light {
-  text-align: center;
-  font-family: Roboto Slab;
   font-size: 200;
-  font-size: 16px;
+  font-size: 20px;
   color: #808080;
 }
 
@@ -170,52 +181,79 @@ h3 {
   font-size: 22px;
 }
 
+.intro-img {
+  margin-top: 10%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .about-img {
   background-color: white;
-  max-width: 300px;
-  float: left;
+  max-width: 33%;
   height: 300px;
+  float: left;
+  margin-top: 40px;
+  margin-right: 0;
   transition: all 0.3s;
 }
 
 .about-intro {
   background-color: white;
   float: left;
+  margin-top: 10px;
   margin-left: 50px;
   margin-right: 0;
-  max-width: 350px;
+  max-width: 450px;
   transition: all 0.3s;
 }
 
 .about-text {
   margin-top: 15px;
-  font-size: 16px;
   z-index: 10;
 }
 
 #intro-block {
   background-color: white;
   width: 100%;
-  height: 200px;
+  height: 30vh;
+  /*height: 100vh;*/
   max-width: 900px;
   transition: all 0.3s;
 }
 
-#intro-large-text {
-  padding-top: 50px;
-  margin-left: 50px;
-  font-size: 36px;
+#about-block {
+  background-color: white;
+  width: 100%;
+  /*height: 100vh;*/
+  max-width: 900px;
+  transition: all 0.3s;
+}
+
+.intro-text {
+  max-width: 686px;
+  font-weight: 400;
   z-index: 10;
   opacity: 1;
 }
 
+#intro-large-text {
+  font-size: 36px;
+  font-weight: 600;
+  margin-top: 5%;
+}
+
 #intro-small-text {
-  margin-top: 15px;
-  margin-left: 50px;
+  font-size: 18px;
   font-weight: 400;
-  font-size: 20px;
-  z-index: 10;
   max-width: 400px;
+}
+
+#now-date {
+  font-family: Roboto Slab;
+  font-size: 200;
+  font-size: 18px;
+  color: #808080;
 }
 
 #portfolio-block {
@@ -224,32 +262,20 @@ h3 {
 }
 
 #cisco-block {
-  background-color: #F2F2F8;
+  /*background-color: #F2F2F8;*/
 }
 
 #blueprint-block {
-  background-color: #177BE5;
-  color: #F8FAFC;
+  /*background-color: #177BE5;*/
 }
 
 #waterline-block {
-  background-color: #E9EDEE;
+  /*background-color: #E9EDEE;*/
 }
 
 .work-row {
   height: 230px;
   margin-left: auto;
-}
-
-.work-item {
-  background-color: white;
-  width: 100%;
-  margin-right: 20px;
-  margin-bottom: 5px;
-  height: 350px;
-  width border: 2px solid #808080;
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
-  transition: all 0.3s;
 }
 
 .page-block {
@@ -284,9 +310,9 @@ h3 {
   width: 100%;
   margin-right: 20px;
   margin-bottom: 5px;
-  height: 350px;
-  width border: 2px solid #808080;
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);
+  height: 240px;
+  /*width border: 2px solid #808080;
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);*/
   transition: all 0.3s;
 }
 
@@ -294,18 +320,15 @@ h3 {
   font-weight: 300;
   font-size: 20px;
   top: 120px;
-  margin-top: 5px;
-  margin-left: 50px;
-  padding-top: 50px;
+  margin-top: 10px;
 }
 
 .work-title {
-  font-weight: 500px;
+  font-family: Domine;
+  font-weight: 600px;
   font-size: 26px;
-  top: 120px;
   margin-top: 5px;
   margin-bottom: 0;
-  margin-left:50px;
 }
 
 .top-divider {
@@ -319,7 +342,6 @@ h3 {
 }
 
 .portfolio-text {
-  margin-left: 50px;
   margin-top: 30px;
   font-size: 18px;
   font-weight: 400;
@@ -327,15 +349,44 @@ h3 {
 
 .portfolio-description {
   float: left;
-  max-width: 45%;
+  max-width: 60%;
 }
 
 .portfolio-img {
   float: left;
+  max-width: 350px;
+  width: 40%;
+}
+
+.company-img {
+  width: 280px;
+  height: 180px;
+  /*
+  when using color rectanges
+  width: 350px;
+  height: 240px;
+
+  when using laptop screen
+  width: 340px;
+  height: 195px;
+  */
+}
+
+.about-details {
   margin-top: 40px;
-  margin-left: 20px;
+}
+
+.about-details-content {
+  margin-top: 15px;
+}
+
+.about-details-header {
+  float: left;
+  width: 33%;
   margin-right: 0;
-  max-width: 200px;
+  position: relative;
+  font-family: Domine;
+  font-size: 24px;]
 }
 
 #cisco-img {
@@ -368,13 +419,19 @@ h3 {
     float: none;
   }
 
-  .about-img {
-    float: none;
-
-  }
-
   #about-header {
     margin-top: 20px;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .about-img {
+    float: none;
+    max-width: 100%;
+  }
+  .about-intro {
+    float: none;
+    margin-left: 0;
   }
 }
 
