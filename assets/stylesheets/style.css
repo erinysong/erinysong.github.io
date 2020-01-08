@@ -141,11 +141,12 @@ a {
 }
 
 .container-fluid {
-  max-width: 1000px;
+  max-width: 700px;
 }
 
 .block {
   margin-bottom: 10px;
+  width: 100%;
 }
 
 .intro-bar {
@@ -190,8 +191,8 @@ a {
 
 .about-img {
   background-color: white;
-  max-width: 33%;
-  height: 300px;
+  height: 200px;
+  border-radius: 10px;
   float: left;
   margin-top: 40px;
   margin-right: 0;
@@ -202,15 +203,59 @@ a {
   background-color: white;
   float: left;
   margin-top: 10px;
-  margin-left: 50px;
   margin-right: 0;
-  max-width: 450px;
+  max-width: 550px;
   transition: all 0.3s;
 }
 
 .about-text {
   margin-top: 15px;
   z-index: 10;
+}
+
+.about-header {
+  font-family: freight-text-pro, sans-serif;
+  font-size: 26px;
+  font-weight: 600;
+}
+
+.about-title {
+  font-weight: 600;
+  color: #7368FF;
+  font-size: 18px;
+  margin-top: 5px;
+  margin-bottom: 2px;
+}
+
+.about-subtitle {
+  color: #828282;
+  font-weight: 500;
+}
+
+.about-text {
+  margin-top: 10px;
+}
+
+.about-section {
+  margin-bottom: 30px;
+}
+
+.about-link {
+  color: #7368FF;
+  font-weight: 600;
+}
+
+.about-item {
+  margin-bottom: 20px;
+}
+
+.social-link {
+  margin-right: 12px;
+  font-size: 16px;
+}
+
+.about-link:hover {
+  color: #7368FF;
 }
 
 #intro-block {
@@ -238,6 +283,8 @@ a {
 }
 
 #intro-large-text {
+  font-family: freight-text-pro, sans-serif;
+  /*font-family: Karla, sans-serif;*/
   font-size: 36px;
   font-weight: 600;
   margin-top: 5%;
@@ -247,6 +294,13 @@ a {
   font-size: 18px;
   font-weight: 400;
   max-width: 400px;
+}
+
+.portfolio-header {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 0;
+  margin-top: 10px;
 }
 
 #now-date {
@@ -261,31 +315,10 @@ a {
   max-width: 900px;
 }
 
-#cisco-block {
-  /*background-color: #F2F2F8;*/
-}
-
-#blueprint-block {
-  /*background-color: #177BE5;*/
-}
-
-#waterline-block {
-  /*background-color: #E9EDEE;*/
-}
-
-.work-row {
-  height: 230px;
-  margin-left: auto;
-}
-
 .page-block {
   width: 900px;
   margin-left: auto;
   margin-right: auto;
-}
-
-.condensed-block {
-  width: 700px;
 }
 
 .row:after {
@@ -300,35 +333,23 @@ a {
   margin-right: auto;
 }
 
-#waterline-logo {
-  margin-top: 15px;
-  margin-bottom: 15px;
-}
-
 .work-item {
   background-color: white;
   width: 100%;
-  margin-right: 20px;
-  margin-bottom: 5px;
-  height: 240px;
+  margin-bottom: 35px;
   /*width border: 2px solid #808080;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.2);*/
   transition: all 0.3s;
 }
 
-.job-title {
-  font-weight: 300;
-  font-size: 20px;
-  top: 120px;
-  margin-top: 10px;
+.now-header {
+  font-size: 22px;
+  font-family: freight-text-pro, sans-serif;
+  font-weight: 600;
 }
 
-.work-title {
-  font-family: Domine;
-  font-weight: 600px;
-  font-size: 26px;
-  margin-top: 5px;
-  margin-bottom: 0;
+.strong-text {
+  font-weight: 600;
 }
 
 .top-divider {
@@ -341,35 +362,9 @@ a {
   opacity: 0.15;
 }
 
-.portfolio-text {
-  margin-top: 30px;
-  font-size: 18px;
-  font-weight: 400;
-}
-
-.portfolio-description {
-  float: left;
-  max-width: 60%;
-}
-
 .portfolio-img {
-  float: left;
-  max-width: 350px;
-  width: 40%;
-}
-
-.company-img {
-  width: 280px;
-  height: 180px;
-  /*
-  when using color rectanges
-  width: 350px;
-  height: 240px;
-
-  when using laptop screen
-  width: 340px;
-  height: 195px;
-  */
+  border-radius: 5px;
+  width: 100%;
 }
 
 .about-details {
@@ -385,25 +380,63 @@ a {
   width: 33%;
   margin-right: 0;
   position: relative;
-  font-family: Domine;
-  font-size: 24px;]
+  font-size: 24px;
 }
 
-#cisco-img {
-  margin-top: 100px;
-  size: 200%;
-  margin-left: 100px;
+.now-details-header {
+  float: left;
+  margin-right: 0;
+  font-size: 24px;
 }
+
+.flex-item {
+  float: left;
+  width: 47%;
+}
+
+.flex-container {
+  display: flex;
+  margin-left: 0;
+  flex-wrap: wrap;
+}
+
+.left {
+  margin-right: 32px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+@media only screen and (max-width: 300px) {
+  .portfolio-img {
+    max-width: 220px;
+  }
+
+  .block {
+    max-width: 300px;
+  }
+
+  .page-block {
+    max-width: 300px;
+  }
+}
+
 
 @media only screen and (max-width: 400px) {
   .about-img {
     float: none;
   }
+
 }
 
+
 @media only screen and (max-width: 600px) {
-  .work-text p {
-    max-width: 100%;
+
+  .portfolio-img {
+    max-width: 500px;
   }
 }
 
@@ -441,4 +474,5 @@ a {
 @media only screen and (min-width: 1200px) {
   .work-header {
     margin-right: 0;
+  }
 }

@@ -26,13 +26,15 @@
 
     <!-- Custom Styles -->
     <link rel="stylesheet" href="assets/stylesheets/style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/cbq8asr.css">
     <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Domine" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Proxima+Nova" rel="stylesheet">
     <link href="//fonts.googleapis.com/css?family=Roboto:400,300,700,500,100" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:100,200,300,400,500,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700,500,100" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
 
     <!-- for font-awesome icons -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
@@ -68,10 +70,9 @@
 
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="index.html">work</a></li>
+                    <li class="active"><a href="index.html">home</a></li>
                     <!--<li><a href="design.html">design</a></li>-->
-                    <li><a href="about.html">about</a></li>
-                    <!--<li><a href="now.html">now</a></li>-->
+                    <li><a href="now.html">now</a></li>
                 </ul>
             </div>
           </div>
@@ -79,79 +80,147 @@
       </section>
     </div>
 
+    <!--this makes narrower block<div class="container-fluid condensed-block">-->
     <div class="container-fluid">
       <section class="block">
-        <div class="container" id="intro-block">
+        <div class="container" id="about-block">
           <div class="row">
-            <p class="intro-text" id="intro-large-text">hi there! i'm erin.</p>
-            <p class="intro-text" id="intro-small-text">I'm a CS student at
-              UC Berkeley who cares about tech, design, and social impact.</p>
+            <!--<img class="about-img" src="images/about-img.jpg">-->
+            <div class="about-intro">
+              
+              <p class="intro-text" id="intro-large-text">Hi there! I'm Erin.</p>
+              <p class="about-text">I'm a CS student at UC Berkeley passionate about using technology 
+                to empower people and share stories. Feel free to reach me 
+                through my email erinsong@berkeley.edu.
+              </p>
+              <a class="about-link social-link" href=https://github.com/erinysong">github</a>
+              <a class="about-link social-link" href="https://www.linkedin.com/in/erinsong/">linkedin</a>
+
+              <hr class="featurette-divider">
+            
+            <div class="about-section">
+              <h2 class="about-header">Experience</h2>
+              <div class="about-item">
+                <h3 class="about-title">Microsoft</h3>
+                <p class="about-subtitle">SWE Intern, Summer 2020</p>
+                <p>Full-stack AI tools for <a class="about-link" href="https://lobe.ai/">Lobe.ai</a>.</p>
+              </div>
+
+              <div class="about-item">
+                <h3 class="about-title">Cisco</h3>
+                <p class="about-subtitle">SWE Intern, Summer 2019</p>
+                <p>Created Data Analytics tools visualizing internal sales data.</p>
+              </div>
+
+              <div class="about-item">
+                <h3 class="about-title">Waterline Data</h3>
+                <p class="about-subtitle">SWE & UX Design Intern, Summer 2018</p>
+                <p>Developed error tracking system for enterprise data catalog product.</p>
+              </div>
+            </div>
+
+            <div class="about-section">
+              <h2 class="about-header">Projects</h2>
+              <div class="about-item">
+                <h3 class="about-title">Unloop Classroom Portal</h3>
+                <p class="about-subtitle">Web Development</p>
+                <p class="about-text">
+                  Unloop is a Seattle-based nonprofit that provides a pathway to software careers 
+                  for people with criminal records.
+                </p>
+
+                <p class="about-text">Currently developing a web app to facilitate teacher-student communication and 
+                  streamline the student onboarding process.</p>
+              </div>
+              
+              <div class="about-item">
+                <h3 class="about-title">Divvy</h3>
+                <p class="about-subtitle">Product Design</p>
+                <p class="about-text">
+                  Mobile app prototype aiming to reduce financial and social anxieties for young 
+                  adults by connecting them to nearby users looking to form group subscription plans. 
+                </p>
+              </div>
+            </div>
+
+            <div class="about-section">
+              <h2 class="about-header">Community Involvement</h2>
+              <div class="about-item">
+                <h3 class="about-title"><a class="about-link" href="https://calblueprint.org/">Blueprint, Technology for Nonprofits</a></h3>
+                <p class="about-subtitle">Project Developer</p>
+                <p class="about-text">Blueprint is a student organization 
+                  that aims to make technology accessible and useful for social good causes.</p>
+                <p class="about-text">As a project developer, I work with student teams to build web apps
+                  for nonprofits throughout a year-long product cycle.</p class="about-text">
+              </div>
+
+              <div class="about-item">
+                <h3 class="about-title"><a class="about-link" href="https://www.berkeleyanova.org/">ANova</a></h3>
+                <p class="about-subtitle">CS Instructor and Mentor</p>
+                <p class="about-text">ANova aims to make CS education more equitable, available, and achievable for students of all backgrounds.
+                </p>
+
+                <p class="about-text">I help instruct a weekly afterschool program teaching programming and web design to students at 
+                  Fremont High School.</p>
+              </div>
+              
+            </div>
+
+            <h2 class="about-header">Interests</h2>
+            <div class="flex-container">
+              <div class="about-item flex-item left">
+                <h3 class="about-title">Books</h3>
+                <p>Hitchhiker's Guide to the Galaxy<br/>
+                  Catch-22</p>
+              </div>
+              <div class="about-item flex-item">
+                <h3 class="about-title">Blogs</h3>
+                <p>Wait But Why<br/>
+                  Hyperbole and a Half</p>
+              </div>
+              <div class="about-item flex-item left">
+                <h3 class="about-title">Movies</h3>
+                <p>Anything Studio Ghibli<br/>
+                  Guardians of the Galaxy 2</p>
+              </div>
+              <div class="about-item flex-item">
+                <h3 class="about-title">TV Shows</h3>
+                <p>Brooklyn 99<br/>
+                  Bojack Horseman</p>
+              </div>
+              <div class="about-item flex-item left">
+                <h3 class="about-title">Subjects</h3>
+                <p>Inclusive Design<br/>
+                  Education<br/>
+                  Behavioral Psychology<br/>
+                  Film & Media Studies<br/></p>
+              </div>
+              <div class="about-item flex-item">
+                <h3 class="about-title">Hobbies</h3>
+                <p>Cooking Korean Food<br/>
+                  Digital Art<br/>
+                  Dogspotting<br/>
+                  Writing<br/></p>
+              </div>
+            </div>
           </div>
-        </div>
+          </div>
+            
       </section>
-
-      <section class="block">
-        <div class="container" id="portfolio-block">
-          <div class="row">
-            <div class="work-item" id="cisco-block">
-              <div class="portfolio-img">
-                <img class="company-img" src="images/cisco-logo.png">
-                <!--<img src="https://via.placeholder.com/350x278">-->
-              </div>
-              <div class="portfolio-description">
-                <h3 class="work-title">Cisco Systems</h3>
-                <h4 class="job-title">Software Engineering Intern</h4>
-                <p class="portfolio-text">This summer I'm working at Cisco's Data
-                  and Analytics team to develop internal sales tools for tracking
-                  subscription renewals. Stay tuned for more updates!</p>
-              </div>
-
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="work-item" id="blueprint-block">
-              <div class="portfolio-img">
-                <img class="company-img" src="images/bp-logo.png">
-              </div>
-              <div class="portfolio-description">
-                <h3 class="work-title">Cal Blueprint</h3>
-                <h4 class="job-title">Full-Stack Project Developer</h4>
-                <p class="portfolio-text">Cal Blueprint is a student club that
-                builds web and mobile apps for nonprofits. I'll be working as
-                a software developer on one of our five partner projects this year.</p>
-              </div>
-
-            </div>
-          </div>
-
-          <div class="row">
-            <div class="work-item" id="waterline-block">
-              <div class="portfolio-img">
-                <img class="company-img" src="images/waterline-logo.png">
-              </div>
-              <div class="portfolio-description">
-                <h3 class="work-title">Waterline Data</h3>
-                <h4 class="job-title">Software Engineering & UX Intern</h4>
-                <p class="portfolio-text">I implemented an error tracking system
-                  on the UI and REST API of Waterline Data's enterprise data catalog.
-                  I also designed dashboards for data visualization
-                  and GDPR management.</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-          </div>
+    </div>
 
     <hr class="featurette-divider">
     <div id="footerwrap">
-      <div class="container">
-          <div class="row centered">
-            <div class="text-center">
-              <p>&copy; Erin Song 2018</p>
+      <div class="container-fluid">
+        <section class="block">
+          <div class="container">
+            <div class="row">
+              <div>
+                <p>&copy; Erin Song 2020</p>
+              </div>
             </div>
           </div>
+        </section>
       </div>
     </div>
 

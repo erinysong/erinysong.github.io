@@ -27,15 +27,17 @@
     <!-- Custom Styles -->
     <link rel="stylesheet" href="assets/stylesheets/style.css">
     <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css?family=Domine" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Proxima+Nova" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css?family=Roboto:400,300,700,500,100" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:100,200,300,400,500,600,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700,500,100" rel="stylesheet">
 
     <!-- for font-awesome icons -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" rel="stylesheet"/>
-    
+
     <!-- Global Site Tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-123918649-1"></script>
     <script>
@@ -49,163 +51,91 @@
 
 
   <body>
-    <div class="page-block">
-      <!-- navbar-->
+    <div class="page-block container-fluid">
+      <!-- navbar -->
       <section class="navbar">
         <nav id="myNavBar" class="navbar navbar-default navbar-fixed-top">
           <div class="container-fluid">
             <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false" 
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-collapse" aria-expanded="false"
               aria-controls="navbar">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="navbar-brand" href="index.html">erin song</a>
             </div>
 
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="nav navbar-nav">
                     <li class="active"><a href="index.html">work</a></li>
-                    <!--<li><a href="resume.html">resume</a></li>-->
+                    <!--<li><a href="design.html">design</a></li>-->
                     <li><a href="about.html">about</a></li>
+                    <li><a href="now.html">now</a></li>
                 </ul>
             </div>
           </div>
         </nav>
       </section>
+    </div>
 
-
-
-      <!-- introduction -->
-      <section class="work-block">
-        <div class="container-fluid">
+    <div class="container-fluid">
+      <section class="block">
+        <div class="container">
           <div class="row">
-            <div class="col-sm-12">
-              <div class="work-header">
-                <h3>WATERLINE DATA</h3>
-                <hr>
-              </div>
-              <div class="work-text">
-              <h4>SUMMARY</h4>
-              <p>Summer 2018, I worked at <strong><a href="https://www.waterlinedata.com/" target="_blank">Waterline Data</a></strong> as a software engineering and UX design intern.</p>
-
-              <p>My work focused on the company's enterprise data catalog product, where I used Java to program HTTP response status codes to the product's REST API. I later continued to add similar error messages to the data catalog's UI.</p>
-
-              <p>I also researched the data catalog's tag clustering feature, which used machine learning algorithms and neural networks to categorize data into smaller subgroups (e.g., name, population) and identify duplicate data sources that are labeled under different names.</p>
-
-              <p>Although I initally joined as a software engineering intern, I volunteered to pick up additional work from the UX team, where I created UX prototypes, visual designs, and user research reports for new product features.</p>
-
-              <h4>DATA CHANGE REQUEST UX DESIGN</h4>
-
-              <p>Because Waterline Data focuses on allowing users to locate, filter, and change large amounts of data, the greatest design challenge was creating a user experience that presents the data clearly and concisely.
-              </p>
-
-              <p>One of my UX assignments involved allowing users to request changes in datasets with inaccurate data or discrepancies with the data's General Data Protection Regulation (GDPR) status.  
-              </p>
-
-              <h4>1ST ITERATION</h4>
-
-              <p>My first iteration involved nailing down the functionalities that my product manager wanted to establish through the data change request feature. Because I wanted to prioritize functionality of the user experience over visual design during the first iteration, I used Balsamiq because of its efficiency in creating premade UI elements and linking wireframes together.
-              </p>
-
-              <p>The first set of 4 images demonstrates a user making a change request to fix incorrect data in an important dataset. The user can select the urgency of the dataset error as well as what kind of error it is. The second set of 6 images demonstrates a data steward processing the user's change request and assigning it to someone who can best handle the issue.</p>
-
-              <img class="img-responsive mockup-img" src="images/gdpr-it1.png">
-              <img class="img-responsive mockup-img" src="images/gdpr-it1-1.png">
-
-              <h4>2ND ITERATION</h4>
-
-              <p>After receiving feedback from my UX lead and product managers, we decided that the data steward's experience looking through user change requests could be drastically improved, since product management's intial vision seemed to incorporate too much information into one panel. 
-              </p>
-
-              <p>
-              I designed several possible dashboard view experiences for the data steward to look at data change requests. 
-              </p>
-
-              <img class="img-responsive mockup-img" src="images/gdpr-it2.png">
-
-              <p>
-              We found that the current view combining change requests, data curation, and data use request proved repetitive, so we created an overall case request dashboard to simplify the experience. 
-              </p>
-
-              <p>We decided to use the redesign using a separately colored histogram to represent data on the change requests. We followed Ben Shneiderman's mantra <i>"Overview first, zoom and filter, then details on demand," 
-              </i>&nbspby allowing the user to click on a bar to get more information about change requests made at a certain time period.</p>
-
-              <p>Since the simultaneous use of date and severity to visualize data would be confusing for a steward identifying request statistics, we decided to allow the main dashboard panel to reflect a 2-variable relationship between date and quantity, with severity and request type displayed in later panels. 
-              </p>
-
-              <img class="img-responsive mockup-img" src="images/gdpr-it2-1.png">
-
-              <h4>3RD ITERATION</h4>
-              <p>
-              Upon showing my changes to my product manager, we agreed that it would be best we have options for the time increments on the histogram, as different steward roles might want to access data on change requests from different time comparisons.
-              </p>
-
-              <p>
-              My third iteration involved implementing these changes and adding a bulk request option that allows stewards to reassign multiple case requests to one person (e.g., if someone leaves the organization and we want to assign that employee's cases to a new replacement).
-              </p>
-
-              <p>
-              I also used Sketch to create a more polished UX design that combined the improvements we made in the 2nd iteration with the change request creation feature (which we did not focus on as much, since viewing change requests proved more data intensive to design). 
-              </p>
-
-              <img class="img-responsive mockup-img" src="images/gdpr-it3.png">
-              <img class="img-responsive mockup-img" src="images/gdpr-it3-1.png">
-
-              <h4>REFLECTION</h4>
-              <p>
-              I learned a lot from my first software engineering internship! This was the first time I worked on pre-existing frameworks for both software engineering and design, so consistently communicating with my teammates was an integral part to ensuring my ideas aligned with the company's.
-              </p>
-
-              <p>
-              I enjoyed learning how to use new tools like Postman, Solr, Hadoop, and Jetty to work on the company's software, and I realized that the challenge of software development comes in being able to integrate multiple tools and other people's code to create a deliverable product.
-              </p>
-
-              <p>
-              I also appreciated Waterline Data's efforts in teaching their interns various aspects of their product, including the machine learning algorithms used to analyze data sources and the languages used to create the product's front end.
-              </p>
-
-              <p>
-              As for the design aspect of my internship, I had a very unique experience, as this was the first time I was given direct guidelines from my product management team on what to create. Because I was given product guidelines and specs ahead of time, I felt that my ideation process was much more predetermined than it has been in the past. 
-              </p>
-
-              <p>
-              Overall, interning at Waterline Data was an amazing learning experience, and I hope to use what I learned this summer for projects in the future!
-              </p>
-
-              <h4><a class="home-redirect" href="index.html">back to home page</a></h4>
-              </div>
-            </div>
+            <p class="intro-text" id="intro-large-text">Waterline Data</p>
+            <p class="intro-text" id="intro-small-text">Software Engineering and UX Design
+            Intern</p>
           </div>
         </div>
       </section>
 
+      <section class="block">
+        <div class="container" id="portfolio-block">
+          <div class="row">
+            <div class="work-item" id="cisco-block">
+              <p>Waterline Data is a startup specializing in data analytics software. My work 
+                focused on the company's enterprise data catalog, where I implemented an error tracking 
+                and logging system on the product's UI and REST API.
+              </p>
+              <img class="portfolio-img" src="images/waterline-img-long.png">
+                <!--<img src="https://via.placeholder.com/350x278">-->
+
+              <p>
+                I also researched implementations for the product's content identification feature, which 
+                categorized data into smaller subgroups (e.g., name, population) 
+                and identified duplicate data sources labeled under different names.
+              </p>
+
+              <p>
+                Although I initally joined as a software engineering intern, I volunteered to pick up additional 
+                work for the UX team, where I contributed UX mockups, visual designs, and user research reports 
+                for new product features.
+              </p>
+
+              <p>
+                With the help of my UX mentor, I prototyped and shipped a feature allowing users to request 
+                changes to datasets with inaccurate data or discrepancies with the data's compliance to General 
+                Data Protection Regulation (GDPR) laws.
+              </p>
+
+              <h3>Technologies</h3>
+              <p>
+                Java, Angular.js, Apache Spark, Hadoop, Sketch, Balsamiq, Jira
+              </p>
+
+            </div>
+          </div>
+      </section>
     </div>
-    <!-- FOOTER -->
+
     <hr class="featurette-divider">
     <div id="footerwrap">
       <div class="container">
           <div class="row centered">
-            <div class="text-center col-xs-3">
+            <div class="text-center">
               <p>&copy; Erin Song 2018</p>
             </div>
-                
-            <div class="text-center col-xs-6">
-              
-            </div>
-            
-            <div class="text-center col-xs-3">
-                <p>
-                  erinsong@berkeley.edu<br/>
-                  <a href="mailto:erinsong@berkeley.edu"><i class="fa fa-envelope icon" class="first-icon"></i></a> 
-                  <a href="https://www.facebook.com/erin.song.101" target="_blank"><i class="fa fa-facebook-official icon"></i></a>
-                  <a href="https://www.linkedin.com/in/erinsong/" target="_blank"><i class="fa fa-linkedin-square icon"></i></a>
-                  <a href="https://github.com/erinysong" target="_blank"><i class="fa fa-github icon"></i></a>
-                  <a href="https://www.behance.net/erinsong1006" target="_blank"><i class="fa fa-behance icon"></i></a>
-                </p>
-            </div>      
           </div>
       </div>
     </div>

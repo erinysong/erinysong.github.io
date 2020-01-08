@@ -26,6 +26,7 @@
 
     <!-- Custom Styles -->
     <link rel="stylesheet" href="assets/stylesheets/style.css">
+    <link rel="stylesheet" href="https://use.typekit.net/cbq8asr.css">
     <link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Domine" rel="stylesheet">
@@ -33,6 +34,7 @@
     <link href="//fonts.googleapis.com/css?family=Roboto:400,300,700,500,100" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:400,300,700,500,100" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather&display=swap" rel="stylesheet">
 
     <!-- for font-awesome icons -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
@@ -71,7 +73,7 @@
                     <li><a href="index.html">work</a></li>
                     <!--<li><a href="design.html">design</a></li>-->
                     <li class="active"><a href="about.html">about</a></li>
-                    <!--<li><a href="now.html">now</a></li>-->
+                    <li><a href="now.html">now</a></li>
                 </ul>
             </div>
           </div>
@@ -84,40 +86,76 @@
       <section class="block">
         <div class="container" id="about-block">
           <div class="row">
-            <img class="about-img" src="images/about-img.jpg">
+            <!--<img class="about-img" src="images/about-img.jpg">-->
             <div class="about-intro">
-              <p class="intro-text" id="intro-large-text">nice to meet ya! i'm erin.</p>
-              <p class="about-text">I'm a junior studying CS at UC Berkeley, and
-                I love exploring how technology can connect people and tell stories.
+              
+              <p class="intro-text" id="intro-large-text">Hi there! I'm Erin.</p>
+              <p class="about-text">I'm a CS student at UC Berkeley passionate about using technology 
+                to empower people and share stories. Feel free to contact me 
+                through my email erinsong@berkeley.edu.
               </p>
-              <p class="about-text">This summer I'm working at <a href = "https://www.cisco.com/">
-                Cisco</a> as a Software Engineering Intern to develop internal
-                sales tools for the Data and Analytics team.
+              <a class="about-link social-link" href=https://github.com/erinysong">github</a>
+              <a class="about-link social-link" href="https://www.linkedin.com/in/erinsong/">linkedin</a>
+
+              <hr class="featurette-divider">
+            
+            <div class="about-section">
+              <p class="about-header">Experience</p>
+              <p>
+                <strong class="about-title">Microsoft</strong><br>
+                SWE Intern (<a class="about-link" href="https://lobe.ai/">Lobe.ai</a>), Summer 2020
               </p>
-              <p class="about-text">I'm currently in the process of updating
-              this site, but in the meantime feel free to reach out to me
-              at erinsong@berkeley.edu if you want to chat!</p>
-                <!--You can also check out my <a href="now.html">/now</a>
-                page to see what I'm up to these days.-->
+              <p><strong class="about-title">Cisco</strong><br>
+                SWE Intern (Data Analytics), Summer 2019</p>
+              <p><strong class="about-title">Waterline Data</strong><br>
+                SWE and UX Design Intern, Summer 2018</p>
             </div>
+
+            <div class="about-section">
+              <p class="about-header">Projects</p>
+              <p>
+                <strong class="about-title">Unloop Classroom Portal</strong><br>
+                Unloop is a Seattle-based nonprofit that provides a pathway to software careers 
+                for people with criminal records.
+              </p>
+
+              <p>Currently developing a web app to facilitate teacher-student communication and 
+                streamline the student onboarding process.</p>
+
+              <p>
+                <strong class="about-title">Divvy</strong><br>
+                Mobile app aiming to alleviate financial and social anxieties for new 
+                grads by matching them to nearby users looking to form group subscription plans. 
+              </p>
+            </div>
+
+            <div class="about-section">
+              <p class="about-header">Community Involvement</p>
+              <a class="about-link" href="https://calblueprint.org/">Blueprint, Technology for Nonprofits</a><br>
+              <p>Blueprint is a student organization 
+                that aims to make technology accessible and useful for social good causes.</p>
+
+              <p>As a project developer, I work with student teams to build web apps
+                for nonprofits throughout a year-long product cycle.</p>
+              
+                <a class="about-link" href="https://www.berkeleyanova.org/">ANova</a>
+                <p>ANova aims to make CS education more equitable, available, and achievable for students of all backgrounds.
+              </p>
+
+              <p>I help instruct a weekly afterschool program teaching programming and web design to students at 
+                Fremont High School.</p>
+            </div>
+            
+
+            <p class="about-header">Interests</p>
+            <p>inclusive design, education, behavioral psychology, film and media studies, writing,
+              productivity tools (Notion.so)</p>
+            <!--This summer I'll be working at <a href = "https://lobe.ai/"></a>
+              Microsoft as a Software Engineering Intern on lobe.ai, a mobile interface that allows 
+              anyone to build, train, and test their own deep-learning models.-->
           </div>
-          <!--<div class="row about-details">
-            <h3 class="about-details-header">talk to me about:</h3>
-            <div class="about-intro about-details-content">
-              <p class="list-item">🏫 teaching</p>
-              <p>I think teaching is one of the most rewarding experiences a person
-              can do. I've instructed music classes for special education children, taught
-              CS to local middle school girls, and tutored intro CS classes as part of
-              Berkeley's CS pedagogy cohort.</p>
-              <p class="list-item">🐶 dogs</p>
-              <p>I'll stop whatever I'm doing to admire and pet any dog near me. I love
-                all dogs, though I have a soft spot for pit bulls (who are very
-                misrepresented and underappreciated!), shibas, and labradoodles. </p>
-              <p class="list-item">📚 reading books</p>
-              <p class="list-item">✍️ writing</p>
-              <p class="list-item">💭 psychology</p>
-            </div>
-          </div>-->
+          </div>
+            
       </section>
 
 
