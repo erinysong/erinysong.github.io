@@ -40,7 +40,7 @@ a {
     src: url(proximanova-regular.otf);
 }
 
-.navbar {
+/* .navbar {
   width: 100%;
   margin-bottom: 60px;
   padding-top: 20px;
@@ -138,6 +138,41 @@ a {
   color: white;
   padding: 1 20px;
   text-decoration: none;
+} */
+
+.navbar {
+  overflow: hidden;
+  background-color: white;
+  font-family: "Open Sans";
+  margin-top: 20px;
+}
+
+.navbar a {
+  float: left;
+  color: #6b6b6b;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+.navbar a.active,
+.navbar a.active:hover,
+.navbar a.active:focus {
+  color: #000000;
+  background-color: #ffffff;
+  text-decoration: underline;
+  font-weight: 800;
+  background-image: none;
+  background-repeat: no-repeat;
+  border: 0;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
+.navbar a:hover,
+.navbar a:focus {
+  color: #000000;
 }
 
 .container-fluid {
@@ -321,6 +356,10 @@ a {
   margin-right: auto;
 }
 
+.copyright {
+  padding-left: 15px;
+}
+
 .row:after {
   content: "";
   display: table;
@@ -402,12 +441,6 @@ a {
 
 .left {
   margin-right: 32px;
-}
-
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
 }
 
 @media only screen and (max-width: 300px) {
