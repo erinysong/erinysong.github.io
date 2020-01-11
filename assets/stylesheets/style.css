@@ -276,7 +276,30 @@ a {
   margin-bottom: 30px;
 }
 
-.about-link {
+.now-link {
+  color: black;
+  font-weight: 500;
+}
+
+.now-link:hover {
+  color: black;
+}
+
+.p-link,
+.p-link:visited {
+  color: black;
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+.p-link:hover {
+  color: black;
+  background-color: #F0F0F0;
+}
+
+.about-link,
+.about-link:hover,
+.about-link:visited {
   color: #7368FF;
   font-weight: 600;
 }
@@ -290,9 +313,7 @@ a {
   font-size: 16px;
 }
 
-.about-link:hover {
-  color: #7368FF;
-}
+
 
 #intro-block {
   background-color: white;
