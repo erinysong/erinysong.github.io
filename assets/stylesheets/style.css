@@ -31,6 +31,11 @@ a {
   transition: all all 150ms;
 }
 
+:root {
+  --hoverLinkColor: #d5d2ff;
+}
+
+
 .p > a {
   border-bottom: 1px solid #e6e9eb !important;
 }
@@ -287,14 +292,28 @@ a {
 
 .p-link,
 .p-link:visited {
-  color: black;
   font-weight: 500;
-  text-decoration: underline;
+  background:
+     linear-gradient(
+       to bottom, var(--hoverLinkColor) 0%,
+       var(--hoverLinkColor) 100%
+     );
+    background-position: 0 100%;
+    background-repeat: repeat-x;
+    background-size: 4px 6px;
+  color: black;
+  text-decoration: none;
+  transition: background-size .4s;
+  /* color: black;
+  font-weight: 500;
+  text-decoration: underline; */
 }
 
 .p-link:hover {
-  color: black;
-  background-color: #E2E0FF;
+  background-size: 4px 50px;
+  text-decoration: none;
+  /* color: black;
+  background-color: #E2E0FF; */
 }
 
 .about-link,
