@@ -312,6 +312,7 @@ a {
 .p-link:hover {
   background-size: 4px 50px;
   text-decoration: none;
+  color: black;
   /* color: black;
   background-color: #E2E0FF; */
 }
