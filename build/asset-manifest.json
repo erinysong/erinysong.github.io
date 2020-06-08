@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/static/css/main.214efef6.chunk.css",
+    "main.js": "/static/js/main.2d8bfbb2.chunk.js",
+    "main.js.map": "/static/js/main.2d8bfbb2.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.2b81d530.js",
+    "runtime-main.js.map": "/static/js/runtime-main.2b81d530.js.map",
+    "static/js/2.f290e0f9.chunk.js": "/static/js/2.f290e0f9.chunk.js",
+    "static/js/2.f290e0f9.chunk.js.map": "/static/js/2.f290e0f9.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.3a4608ea66d2ee19c564c15066218beb.js": "/precache-manifest.3a4608ea66d2ee19c564c15066218beb.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.214efef6.chunk.css.map": "/static/css/main.214efef6.chunk.css.map",
+    "static/js/2.f290e0f9.chunk.js.LICENSE.txt": "/static/js/2.f290e0f9.chunk.js.LICENSE.txt",
+    "static/media/Erin_Song_Resume.pdf": "/static/media/Erin_Song_Resume.46b593eb.pdf",
+    "static/media/index.css": "/static/media/freight-text-pro-semibold.a2bd5961.ttf",
+    "static/media/pintos.png": "/static/media/pintos.fa97f788.png",
+    "static/media/profile.jpg": "/static/media/profile.53f50f17.jpg",
+    "static/media/unicornbox.png": "/static/media/unicornbox.fd54fe36.png",
+    "static/media/unloop.png": "/static/media/unloop.e750037c.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2b81d530.js",
+    "static/js/2.f290e0f9.chunk.js",
+    "static/css/main.214efef6.chunk.css",
+    "static/js/main.2d8bfbb2.chunk.js"
+  ]
+}

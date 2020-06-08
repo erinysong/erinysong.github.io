@@ -1,0 +1,63 @@
+{
+  "experience": [
+    {
+      "name": "Microsoft",
+      "roles": [
+        {
+          "title": "Software Engineering Intern",
+          "description": "Building full-stack AI tools for <a href=\"https://lobe.ai/\" target=\"_blank\" class=\"underlineLink\">Lobe.ai</a>, a no-code tool that allows users to build, train, and visualize deep-learning models.",
+          "time": "May 2020 - present"
+        }
+      ]
+    },
+    {
+      "name": "Cisco Systems",
+      "roles": [
+        {
+          "title": "Software Engineering Intern",
+          "description": "Developed internal data analytics tools visualizing sales data, product renewal rates, and customer behavior.",
+          "time": "May 2019 - Aug 2019"
+        }
+      ]
+    },
+    {
+      "name": "Waterline Data",
+      "roles": [
+        {
+          "title": "Software Engineering & UX Design Intern",
+          "description": "Developed error tracking system for enterprise data catalog. Designed product features for data visualization and analysis.",
+          "time": "Jun 2018 - Aug 2018"
+        }
+      ]
+    }
+  ],
+  "communities": [
+    {
+      "name": "Blueprint, Technology for Nonprofits",
+      "mission": "<a href=\"https://calblueprint.org/\" target=\"_blank\" class=\"underlineLink\">Blueprint</a> is a student organization that aims to make technology accessible and useful for social good.",
+      "roles": [
+        {
+          "title": "Project Lead",
+          "description": "Lead a team of developers and designers in developing web/mobile apps for Blueprint's nonprofit partners. Currently faciliatating discussions with potential NPO partners.",
+          "time": "May 2020 - present"
+        },
+        {
+          "title": "Project Developer & Outreach Director",
+          "description": "Worked with student-led teams to develop web apps for nonprofits throughout a year-long product cycle.",
+          "time": "Aug 2018 - May 2020"
+        }
+      ]
+    },
+    {
+      "name": "ANova (CS for underresourced public schools)",
+      "mission": "<a href=\"https://www.berkeleyanova.org/\" target=\"_blank\" class=\"underlineLink\">ANova</a> aims to make CS education more equitable, available, and achievable for students of all backgrounds.",
+      "roles": [
+        {
+          "title": "CS Instructor",
+          "description": "Instructed afterschool programs teaching programming and web design at Willard Middle School and Fremont High School.",
+          "time": "Aug 2019 - present"
+        }
+      ]
+    }
+  ]
+}

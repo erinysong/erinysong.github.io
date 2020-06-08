@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #F6F6F4;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@font-face {
+  font-family: 'Freight Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Freight Sans'), local('FreightSans'), url(./fonts/freight-sans-pro-xlight.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Freight Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Freight Sans'), local('FreightSans'), url(./fonts/freight-sans-pro-book.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Freight Sans';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Freight Sans'), local('FreightSans'), url(./fonts/freight-sans-pro-medium.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Freight Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Freight Sans'), local('FreightSans'), url(./fonts/freight-sans-pro-semibold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Freight Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Freight Sans'), local('FreightSans'), url(./fonts/freight-sans-pro-bold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Freight Sans';
+  font-style: italic;
+  font-weight: 400;
+  src: local('Freight Sans'), local('FreightSans'), url(./fonts/freight-sans-pro-italic.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Freight Text';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Freight Text'), local('FreightText'), url(./fonts/freight-text-pro-book.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Freight Text';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Freight Text'), local('FreightText'), url(./fonts/freight-text-pro-medium.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Freight Text';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Freight Text'), local('FreightText'), url(./fonts/freight-text-pro-semibold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Freight Text';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Freight Text'), local('FreightText'), url(./fonts/freight-text-pro-bold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Freight Sans Compressed';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Freight Text'), local('FreightText'), url(./fonts/freight-sans-cmp-reg.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Freight Sans Compressed';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Freight Text'), local('FreightText'), url(./fonts/freight-sans-cmp-medium.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Freight Sans Compressed';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Freight Text'), local('FreightText'), url(./fonts/freight-sans-cmp-semibold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Freight Sans Compressed';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Freight Text'), local('FreightText'), url(./fonts/freight-sans-cmp-bold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Freight Sans Condensed';
+  font-style: normal;
+  font-weight: 500;
+  src: local('Freight Text'), local('FreightText'), url(./fonts/freight-sans-cond-medium.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Freight Sans Condensed';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Freight Text'), local('FreightText'), url(./fonts/freight-sans-cond-semibold.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Freight Sans Condensed';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Freight Text'), local('FreightText'), url(./fonts/freight-sans-cond-bold.ttf) format('truetype');
+}
+
+
+
+
+
+

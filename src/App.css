@@ -1,0 +1,278 @@
+.App {
+  
+}
+
+:root {
+  --hoverLinkColor: #add6ff;
+  --highlightColor: #FCD1C4;
+  /*--highlightColor: #FFCC99; other orange color*/
+}
+
+body {
+  font-family: "Freight Sans", -apple-system, sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.fadein-page {
+  animation: fadeInAnimation ease .2s;
+  animation-iteration-count: 1; 
+  animation-fill-mode: forwards; 
+}
+
+@keyframes fadeInAnimation { 
+  0% { 
+      opacity: 0; 
+  } 
+  100% { 
+      opacity: 1; 
+   } 
+} 
+
+h1 {
+  font-size: 22px;
+  font-family: "Freight Text", "sans-serif";
+  font-weight: 700;
+  /*color: #7368FF;*/
+  margin-block-start: 0.25em;
+  margin-block-end: 0.25em
+}
+
+h2 {
+  font-size: 18px;
+  font-weight: 600;
+  margin-block-start: 0.33em;
+  margin-block-end: 0.33em
+}
+
+a {
+  text-decoration: none;
+  border: 0;
+  color: black; 
+}
+
+a:hover {
+  color: #696969;
+}
+
+.underlineLink,
+.underlineLink:visited {
+  font-weight: 600;
+  background:
+     linear-gradient(
+       to bottom, var(--hoverLinkColor) 0%,
+       var(--hoverLinkColor) 100%
+     );
+  background-position: 0 100%;
+  background-repeat: repeat-x;
+  background-size: 4px 4px;
+  color: black;
+  text-decoration: none;
+  transition: background-size .4s;
+}
+
+.underlineLink:hover {
+  background-size: 4px 50px;
+  text-decoration: none;
+  color: black;
+}
+
+.navbar {
+  display: flex;
+}
+
+.navbar-main {
+  justify-content: flex-end;
+  margin-bottom: 120px;
+  margin-top: 25px;
+}
+
+.navbar-about {
+  padding-bottom: 3px;
+  border-bottom: 1px solid #ccc;
+}
+
+.navItem {
+  margin-left: 20px;
+}
+
+.navItem-about {
+  margin-left: 15px;
+}
+
+.activeLink, .activeLink:hover {
+  font-weight: 600;
+  color: black;
+}
+
+.footer {
+  margin-top: 30px;
+  border-top: 1px solid #ccc;
+}
+
+.introSection {
+  height: 80vh;
+}
+
+.introTitle {
+  font-size: 48px;
+  font-family: "Freight Text";
+  padding-top: 100px;
+  color: black;
+}
+
+.introDescription {
+  font-size: 32px;
+  font-family: "Freight Text";
+  max-width: 530px;
+  line-height:44px;
+}
+
+.subtitle {
+  font-size: 22px;
+  font-weight: 600;
+  max-width: 450px;
+}
+
+.highlight {
+  background-color: var(--highlightColor);
+}
+
+.subsection {
+  margin-top: 25px;
+}
+
+.roleTitle {
+  color: #9F4715;
+}
+
+.roleDescription {
+  margin-block-start: 0.33em;
+  margin-block-end: 0.33em
+}
+
+.communitySection {
+  margin-top: 40px;
+}
+
+.appContainer {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.descriptionColumn {
+  max-width: 500px;
+  justify-content: flex-end;
+}
+
+.flexContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.projectImg {
+  margin-right: 50px;
+  width: 350px;
+  height: 240px;
+}
+
+.projectSection {
+  margin-top: 40px;
+}
+
+.projectLink, .projectLink:visited {
+  font-weight: 600;
+  font-family: 'Freight Sans Condensed';
+  padding: 4px 16px;
+  border-radius: 15px;
+  background-color: #383838;
+  background-position: 0 100%;
+  background-repeat: repeat-x;
+  background-size: 4px 4px;
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.projectLink:hover {
+  background-color: #484848;
+  color: #F8F8F8;
+}
+
+.aboutSection {
+  margin-bottom: 40px;
+}
+
+.aboutImgSection {
+  max-width: 450px;
+  margin-right: 50px;
+}
+
+.aboutImg {
+  max-width: 450px;
+  max-height: 300px;
+}
+
+.aboutImgCredit {
+  margin-top: .25em;
+  margin-bottom: .25em;
+  font-size: 14px;
+  text-align: right;
+}
+
+.aboutColumn {
+  max-width: 400px;
+  justify-content: flex-end;
+}
+
+.aboutListItem {
+  margin-block-start: 0.33em;
+  margin-block-end: 0.33em;
+}
+
+.aboutSubtitle {
+  font-size: 20px;
+}
+
+.socialLink {
+  margin-right: 20px;
+}
+
+/*.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+*/
