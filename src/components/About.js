@@ -41,10 +41,10 @@ class About extends React.Component {
                         </div>
 
                         <Switch>
-                            <Route exact path={process.env.PUBLIC_URL + "/about"}>
+                            <Route path={process.env.PUBLIC_URL + "/about"}>
                                 <Fun/>
                             </Route>
-                            <Route exact path={process.env.PUBLIC_URL + "/about/now"}>
+                            <Route path={process.env.PUBLIC_URL + "/about/now"}>
                                 <Now/>
                             </Route>
                         </Switch>
