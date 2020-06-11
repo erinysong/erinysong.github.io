@@ -31,13 +31,13 @@ class App extends Component {
                 </div>
                 <Experience/>
               </Route>
-              <Route path={process.env.PUBLIC_URL + "/projects"}>
+              <Route exact path={process.env.PUBLIC_URL + "/projects"}>
                 <Projects/>
               </Route>
-              <Route path={process.env.PUBLIC_URL + "/about"}>
+              <Route exact path={process.env.PUBLIC_URL + "/about"}>
                 <About/> 
               </Route>
-              <Route path={process.env.PUBLIC_URL + "/about/now"}>
+              <Route exact path={process.env.PUBLIC_URL + "/about/now"}>
                   <About/>
               </Route>
             </Switch>
