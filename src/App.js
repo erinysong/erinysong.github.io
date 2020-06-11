@@ -24,21 +24,14 @@ class App extends Component {
             </div>
 
             <Switch>
-              <Route exact path={process.env.PUBLIC_URL + "/"}>
-                <div class="introSection fadein-page">
-                  <h1 className="introTitle">Hi! I'm Erin.</h1>
-                  <p className="introDescription">I'm a mission-driven developer looking to empower people and share stories.</p>
-                </div>
-                <Experience/>
+              <Route exact path={process.env.PUBLIC_URL + "/"} component={HomePage}>
               </Route>
-              <Route exact path={process.env.PUBLIC_URL + "/projects"}>
-                <Projects/>
+              <Route path={process.env.PUBLIC_URL + "/projects"} component={ProjectsPage}>
               </Route>
-              <Route exact path={process.env.PUBLIC_URL + "/about"}>
+              <Route exact path={process.env.PUBLIC_URL + "/about"} component={AboutPage}>
                 <About/> 
               </Route>
-              <Route exact path={process.env.PUBLIC_URL + "/about/now"}>
-                  <About/>
+              <Route exact path={process.env.PUBLIC_URL + "/about/now"} component={AboutPage}>
               </Route>
             </Switch>
           </div>
@@ -48,5 +41,16 @@ class App extends Component {
     );
   }
 }
+
+const HomePage = () => 
+<div>
+  <div class="introSection fadein-page">
+    <h1 className="introTitle">Hi! I'm Erin.</h1>
+    <p className="introDescription">I'm a mission-driven developer looking to empower people and share stories.</p>
+  </div>
+  <Experience/>
+</div>
+const ProjectsPage = () => <Projects/>
+const AboutPage = () => <About/>
 
 export default App;
