@@ -139,7 +139,7 @@ a:hover {
 }
 
 .subsection {
-  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 .roleTitle {
@@ -181,6 +181,21 @@ a:hover {
 
 .projectSection {
   margin-top: 40px;
+}
+
+.projectTitle {
+  margin-block-start: 0;
+}
+
+@media (max-width: 955px){
+  .projectTitle {
+    margin-block-start: 1em;
+  }
+}
+
+.projectTools {
+  margin-block-start: .25em;
+  font-weight: 600;
 }
 
 .projectLink, .projectLink:visited {

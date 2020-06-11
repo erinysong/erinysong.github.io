@@ -50,7 +50,7 @@ class Fun extends React.Component {
                 
                 <div className="subsection">
                     <h1>Hobbies</h1>
-                    <p className="aboutListItem">Cooking (especially for friends)</p>
+                    <p className="aboutListItem">Cooking (especially for other people!)</p>
                     <p className="aboutListItem">Playing Board Games</p>
                     <p className="aboutListItem">Dogspotting</p>
                     <p className="aboutListItem">Writing</p>

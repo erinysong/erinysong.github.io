@@ -24,20 +24,20 @@ class App extends Component {
             </div>
 
             <Switch>
-              <Route exact path="/">
+              <Route exact path={process.env.PUBLIC_URL + "/"}>
                 <div class="introSection fadein-page">
                   <h1 className="introTitle">Hi! I'm Erin.</h1>
                   <p className="introDescription">I'm a mission-driven developer looking to empower people and share stories.</p>
                 </div>
                 <Experience/>
               </Route>
-              <Route exact path="/projects">
+              <Route exact path={process.env.PUBLIC_URL + "/projects"}>
                 <Projects/>
               </Route>
-              <Route exact path="/about">
+              <Route exact path={process.env.PUBLIC_URL + "/about"}>
                 <About/> 
               </Route>
-              <Route exact path="/about/now">
+              <Route exact path={process.env.PUBLIC_URL + "/about/now"}>
                   <About/>
               </Route>
             </Switch>

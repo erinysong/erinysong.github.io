@@ -10,7 +10,7 @@ const projects = [
       "img": unloop,
       "category": "Full-Stack Web Development",
       "context": "<a href=\"https://www.un-loop.org/\" target=\"_blank\" class=\"underlineLink\">Unloop</a> is a Seattle-based nonprofit that provides individuals with criminal backgrounds a pathway to software careers.",
-      "description": "I worked on a student-led project team to develop a web app portal allowing Unloop instructors to facilitate class operations, assign action items, and evaluate student benchmark assignments.",
+      "description": "I worked on a student-led project team to develop a web app portal allowing Unloop instructors to facilitate class operations, assign action items, and evaluate student benchmark assessments.",
 	  "tools": "React, Ruby on Rails",
 	  "link": "<a href=\"https://github.com/calblueprint/unloop/\" target=\"_blank\" class=\"projectLink\">github</a>"
     },
@@ -28,7 +28,7 @@ const projects = [
       "category": "Systems Design",
       "context": "For my OS class, I worked in a team of 4 to implement PintOS features including user program management, priority thread scheduling, caching, syscalls, and fast file system.",
       "description": "Please never ask me about this project. I remember nothing about it. This blurb only exists as a reminder that me coding in C for 4 months was indeed not some weird fever dream.",
-      "tools": "C, gdb"
+      "tools": "C, x86"
     }
   ]
 
@@ -41,7 +41,8 @@ class Projects extends React.Component {
 					<div className="flexContainer projectSection">
 						<img src= {project.img} alt="project img" className="projectImg" />
 						<div className="descriptionColumn">
-							<h1>{project.name}</h1>
+							<h1 className="projectTitle">{project.name}</h1>
+              <p className="projectTools">{project.tools}</p>
 							<p>{ReactHtmlParser(project.context)}</p>
 							<p>{project.description}</p>
 							<p>{ReactHtmlParser(project.link)}</p>

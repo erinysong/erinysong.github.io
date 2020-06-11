@@ -17,7 +17,7 @@ class About extends React.Component {
                 <div className="flexContainer aboutSection">
                     <div class="aboutImgSection">
                         <img src={profile} className="aboutImg" />
-                        <p className="aboutImgCredit">photo taken by Gibson Chu</p>
+                        <p className="aboutImgCredit">photo taken by Rachel He</p>
                     </div>
                     <div className="aboutColumn">
                         <h1>Nice to meet ya! I'm Erin.</h1>
@@ -41,10 +41,10 @@ class About extends React.Component {
                         </div>
 
                         <Switch>
-                            <Route exact path="/about">
+                            <Route exact path={process.env.PUBLIC_URL + "/about"}>
                                 <Fun/>
                             </Route>
-                            <Route exact path="/about/now">
+                            <Route exact path={process.env.PUBLIC_URL + "/about/now"}>
                                 <Now/>
                             </Route>
                         </Switch>

@@ -9,7 +9,7 @@ class Experience extends React.Component {
 	render() {
 		return(
 			<div className="fadein-page">
-		    	<p className="subtitle"><span className="highlight">some companies that generously let me mess with their code</span></p>
+		    	<p className="subtitle"><span className="highlight">some old stomping grounds</span></p>
 				<div className="descriptionColumn">
 					{experience.map((company) => (
 						<div className="subsection">
@@ -17,7 +17,7 @@ class Experience extends React.Component {
 							{company.roles.map(role => (
 								<div>
 									<h2>{role.title}, {role.time}</h2>
-									<p>{ReactHtmlParser(role.description)}</p>
+									<p className="roleDescription">{ReactHtmlParser(role.description)}</p>
 								</div>
 							))}
 						</div>
@@ -29,7 +29,6 @@ class Experience extends React.Component {
 					{communities.map((community) => (
 						<div className="subsection">
 							<h1>{community.name}</h1>
-							<p>{ReactHtmlParser(community.mission)}</p>
 							{community.roles.map(role => (
 								<div className="subsection">
 									<h2>{role.title}, {role.time}</h2>

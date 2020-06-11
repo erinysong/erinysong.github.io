@@ -33,12 +33,12 @@
   ],
   "communities": [
     {
-      "name": "Blueprint, Technology for Nonprofits",
+      "name": "Cal Blueprint",
       "mission": "<a href=\"https://calblueprint.org/\" target=\"_blank\" class=\"underlineLink\">Blueprint</a> is a student organization that aims to make technology accessible and useful for social good.",
       "roles": [
         {
           "title": "Project Lead",
-          "description": "Lead a team of developers and designers in developing web/mobile apps for Blueprint's nonprofit partners. Currently faciliatating discussions with potential NPO partners.",
+          "description": "Lead a team of developers and designers in developing pro-bono web/mobile apps for nonprofits. Currently faciliatating discussions with potential NPO partners.",
           "time": "May 2020 - present"
         },
         {
@@ -49,7 +49,7 @@
       ]
     },
     {
-      "name": "ANova (CS for underresourced public schools)",
+      "name": "Berkeley ANova",
       "mission": "<a href=\"https://www.berkeleyanova.org/\" target=\"_blank\" class=\"underlineLink\">ANova</a> aims to make CS education more equitable, available, and achievable for students of all backgrounds.",
       "roles": [
         {
