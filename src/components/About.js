@@ -2,10 +2,10 @@ import React from 'react';
 import Fun from './Fun.js';
 import Now from './Now.js';
 import {
-    BrowserRouter as Router,
-      Switch,
-      Route,
-      NavLink
+    HashRouter as Router,
+    Switch,
+    Route,
+    NavLink
   } from "react-router-dom";
 import profile from '../img/profile.jpg'
 import resume from '../assets/Erin_Song_Resume.pdf'
