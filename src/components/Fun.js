@@ -8,7 +8,7 @@ class Fun extends React.Component {
                 <div className="subsection">
                     <h1>Books</h1>
                     <p className="aboutListItem">Hitchhiker’s Guide to the Galaxy</p>
-                    <p className="aboutListItem">Catch 22</p>
+                    <p className="aboutListItem">Catch-22</p>
                 </div>
                 
                 <div className="subsection">
@@ -26,7 +26,7 @@ class Fun extends React.Component {
                 </div>
                 
                 <div className="subsection">
-                    <h1>TV/Netflix Standups</h1>
+                    <h1>TV/Netflix</h1>
                     <p className="aboutListItem">Bojack Horseman</p>
                     <p className="aboutListItem">what. and Make Happy by Bo Burnham</p>
                     <p className="aboutListItem">Jigsaw by Daniel Sloss</p>
