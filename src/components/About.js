@@ -2,7 +2,7 @@ import React from 'react';
 import Fun from './Fun.js';
 import Now from './Now.js';
 import {
-    HashRouter as Router,
+    BrowserRouter as Router,
     Switch,
     Route,
     NavLink
