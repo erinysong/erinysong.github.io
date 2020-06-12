@@ -22,7 +22,6 @@ class Fun extends React.Component {
                 <div className="subsection">
                     <h1>Movies</h1>
                     <p className="aboutListItem">Klaus</p>
-                    <p className="aboutListItem">Guardians of the Galaxy</p>
                     <p className="aboutListItem">Spider-man: Into the Spider-Verse</p>
                 </div>
                 
