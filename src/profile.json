@@ -34,6 +34,7 @@
   "communities": [
     {
       "name": "Cal Blueprint",
+      "url": "https://calblueprint.org/",
       "mission": "<a href=\"https://calblueprint.org/\" target=\"_blank\" class=\"underlineLink\">Blueprint</a> is a student organization that aims to make technology accessible and useful for social good.",
       "roles": [
         {
@@ -50,6 +51,7 @@
     },
     {
       "name": "Berkeley ANova",
+      "url": "https://www.berkeleyanova.org/",
       "mission": "<a href=\"https://www.berkeleyanova.org/\" target=\"_blank\" class=\"underlineLink\">ANova</a> aims to make CS education more equitable, available, and achievable for students of all backgrounds.",
       "roles": [
         {

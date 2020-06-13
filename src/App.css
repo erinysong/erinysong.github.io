@@ -77,6 +77,11 @@ a:hover {
   color: black;
 }
 
+.underlineLink-title {
+  background-size: 4px 3px;
+  font-weight: 700;
+}
+
 .navbar {
   display: flex;
 }
