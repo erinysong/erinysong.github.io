@@ -17,13 +17,13 @@ class Now extends React.Component {
                 </div> */}
 
                 <div className="subsection">
-                    <h1>Developing AI Tools <a href = "https://www.microsoft.com/en-us/" target="_blank" className="underlineLink">@Microsoft</a></h1>
+                    <h1>Developing AI Tools <a href = "https://www.microsoft.com/en-us/" target="_blank" rel="noopener noreferrer" className="underlineLink">@Microsoft</a></h1>
                     <p className="aboutListItem">Using Lobe.ai to incorporate image classification & deep learning models into IoT devices.</p> 
                         <p>Learning cool things about hardware, iOS development, and deep learning (none of which I have prior experience with woOo :")).</p>
                 </div>
                 
                 <div className="subsection">
-                    <h1>Building Tech for Nonprofits <a href = "https://calblueprint.org/" target="_blank" className="underlineLink">@Blueprint</a></h1>
+                    <h1>Building Tech for Nonprofits <a href = "https://calblueprint.org/" target="_blank" rel="noopener noreferrer" className="underlineLink">@Blueprint</a></h1>
                     <p className="aboutListItem">Continuing my work in Blueprint as a project leader for one of our five pro-bono nonprofit projects.</p> 
                         <p>Currently working over summer to source and communicate with potential nonprofit partners and scope their technological needs.</p>
                 </div>

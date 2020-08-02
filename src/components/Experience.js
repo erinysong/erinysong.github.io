@@ -28,7 +28,7 @@ class Experience extends React.Component {
 				<div className="experienceDescription">
 					{communities.map((community) => (
 						<div className="subsection">
-							<h1><a href={community.url} target="_blank" class="underlineLink underlineLink-title">{community.name}</a></h1>
+							<h1><a href={community.url} target="_blank" rel="noopener noreferrer" class="underlineLink underlineLink-title">{community.name}</a></h1>
 							{community.roles.map(role => (
 								<div className="subsection">
 									<h2>{role.title}, {role.time}</h2>

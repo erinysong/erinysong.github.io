@@ -16,7 +16,7 @@ class About extends React.Component {
             <div className="fadein-page">
                 <div className="flexContainer aboutSection">
                     <div class="aboutImgSection">
-                        <img src={profile} className="aboutImg" />
+                        <img src={profile} className="aboutImg" alt="Image of me"/>
                         <p className="aboutImgCredit">photo taken by Rachel He</p>
                     </div>
                     <div className="aboutDescription">
@@ -27,9 +27,9 @@ class About extends React.Component {
                         </p>
                         <p>Wanna chat or grab a cup of tea? Feel free to reach me at erinsong@berkeley.edu - I'd love to get to know you!</p>
                         <div className="flexContainer">
-                            <a href = "https://github.com/erinysong" target="_blank" className="socialLink underlineLink">github</a>
-                            <a href = "https://www.linkedin.com/in/erinsong/" target="_blank" className="socialLink underlineLink">linkedin</a>
-                            <a href = {resume} target="_blank" className="underlineLink">resume</a>
+                            <a href = "https://github.com/erinysong" target="_blank" rel="noopener noreferrer" className="socialLink underlineLink">github</a>
+                            <a href = "https://www.linkedin.com/in/erinsong/" rel="noopener noreferrer" target="_blank" className="socialLink underlineLink">linkedin</a>
+                            <a href = {resume} target="_blank" rel="noopener noreferrer" className="underlineLink">resume</a>
                         </div>
                     </div>
                 </div>
