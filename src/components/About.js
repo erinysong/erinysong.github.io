@@ -19,9 +19,10 @@ class About extends React.Component {
                         <img src={profile} className="aboutImg" />
                         <p className="aboutImgCredit">photo taken by Rachel He</p>
                     </div>
-                    <div className="aboutColumn">
+                    <div className="aboutDescription">
                         <h1>Nice to meet ya! I'm Erin.</h1>
-                        <p>I believe in building solutions empathetically designed to improve people's lives and help us understand one another.
+                        <p>
+                            I aim to build solutions that positively impact people's lives and help us better understand the world and each other.
                         Currently I'm a rising senior at UC Berkeley studying computer science, with minors in data science & human rights.
                         </p>
                         <p>Wanna chat or grab a cup of tea? Feel free to reach me at erinsong@berkeley.edu - I'd love to get to know you!</p>

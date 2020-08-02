@@ -40,7 +40,7 @@ class Projects extends React.Component {
 				{projects.map((project) => (
 					<div className="flexContainer projectSection">
 						<img src= {project.img} alt="project img" className="projectImg" />
-						<div className="descriptionColumn">
+						<div className="projectDescription">
 							<h1 className="projectTitle">{project.name}</h1>
               <p className="projectTools">{project.tools}</p>
 							<p>{ReactHtmlParser(project.context)}</p>

@@ -3,7 +3,7 @@ import React from 'react';
 class Fun extends React.Component {
     render() {
         return (
-            <div className="descriptionColumn fadein-page">
+            <div className="aboutColumn fadein-page">
                 <p className="subtitle aboutSubtitle"><span className="highlight">a hodgepodge list of things i enjoy</span></p>
                 <div className="subsection">
                     <h1>Books</h1>
@@ -21,7 +21,7 @@ class Fun extends React.Component {
 
                 <div className="subsection">
                     <h1>Movies</h1>
-                    <p className="aboutListItem">Klaus</p>
+                    <p className="aboutListItem">Logan</p>
                     <p className="aboutListItem">Spider-man: Into the Spider-Verse</p>
                 </div>
                 

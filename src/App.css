@@ -139,6 +139,11 @@ a:hover {
   max-width: 450px;
 }
 
+.experienceDescription {
+  max-width: 500px;
+  justify-content: flex-end;
+}
+
 .highlight {
   background-color: var(--highlightColor);
 }
@@ -168,34 +173,31 @@ a:hover {
   padding-right: 20px;
 }
 
-.descriptionColumn {
-  max-width: 500px;
-  justify-content: flex-end;
-}
-
 .flexContainer {
   display: flex;
   flex-wrap: wrap;
 }
 
+.projectDescription {
+  max-width: 450px;
+  justify-content: flex-end;
+}
+
 .projectImg {
-  margin-right: 50px;
-  width: 350px;
-  height: 240px;
+  margin-right: 25px;
+  margin-bottom: 20px;
+  width: 400px;
+  height: 280px;
 }
 
 .projectSection {
+  background-color: #F8F8F8;
+  padding: 10px 10px;
   margin-top: 40px;
 }
 
 .projectTitle {
   margin-block-start: 0;
-}
-
-@media (max-width: 955px){
-  .projectTitle {
-    margin-block-start: 1em;
-  }
 }
 
 .projectTools {
@@ -243,9 +245,13 @@ a:hover {
   text-align: right;
 }
 
-.aboutColumn {
+.aboutDescription {
   max-width: 400px;
   justify-content: flex-end;
+}
+
+.aboutColumn {
+  max-width: 500px;
 }
 
 .aboutListItem {
@@ -260,39 +266,3 @@ a:hover {
 .socialLink {
   margin-right: 20px;
 }
-
-/*.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-*/

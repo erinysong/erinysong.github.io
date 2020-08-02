@@ -10,7 +10,7 @@ class Experience extends React.Component {
 		return(
 			<div className="fadein-page">
 		    	<p className="subtitle"><span className="highlight">some old stomping grounds</span></p>
-				<div className="descriptionColumn">
+				<div className="experienceDescription">
 					{experience.map((company) => (
 						<div className="subsection">
 							<h1>{company.name}</h1>
@@ -25,7 +25,7 @@ class Experience extends React.Component {
 				</div>
 								
 				<p className="subtitle communitySection"><span className="highlight">some communities i'm grateful for</span></p>
-				<div className="descriptionColumn">
+				<div className="experienceDescription">
 					{communities.map((community) => (
 						<div className="subsection">
 							<h1><a href={community.url} target="_blank" class="underlineLink underlineLink-title">{community.name}</a></h1>
