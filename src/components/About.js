@@ -16,7 +16,7 @@ class About extends React.Component {
             <div className="fadein-page">
                 <div className="flexContainer aboutSection">
                     <div class="aboutImgSection">
-                        <img src={profile} className="aboutImg" alt="Image of me"/>
+                        <img src={profile} className="aboutImg" alt="it me"/>
                         <p className="aboutImgCredit">photo taken by Rachel He</p>
                     </div>
                     <div className="aboutDescription">
