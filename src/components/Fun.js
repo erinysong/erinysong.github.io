@@ -39,6 +39,15 @@ class Fun extends React.Component {
                         but I want it to be at the core of whatever I do.
                     </p>
                 </div>
+
+                <div className="subsection">
+                    <h1>food as experience</h1>
+                    <p className="aboutListItem">
+                        I love the intimate nature of cooking/sharing meals with people or even eating alone 
+                        in different environments. I enjoy asking people about their comfort foods 
+                        (mine is any Korean soup or stew).
+                    </p>
+                </div>
             </div>
         )
     }

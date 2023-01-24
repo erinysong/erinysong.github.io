@@ -11,21 +11,21 @@ class Experience extends React.Component {
 			<div className="fadein-page">
 		    	<p className="subtitle"><span className="highlight">I touched code at some places, including:</span></p>
 				<div className="experienceDescription">
-					{experience.map((company) => (
+					{experience.map((description) => (
 						<div className="subsection">
 							<p className="roleDescription">
-								{ReactHtmlParser(company.description)}
+								{ReactHtmlParser(description)}
 							</p>
 						</div>
 					))}
 				</div>
 								
-				<p className="subtitle communitySection"><span className="highlight">I spent many hours:</span></p>
+				<p className="subtitle communitySection"><span className="highlight">more of my lore:</span></p>
 				<div className="experienceDescription">
 					{communities.map((community) => (
 						<div className="subsection">
 							<p className="roleDescription">
-								{ReactHtmlParser(community.description)}
+								{ReactHtmlParser(community)}
 							</p>
 						</div>
 					))}

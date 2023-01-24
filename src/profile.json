@@ -1,74 +1,14 @@
 {
   "experience": [
-    {
-      "name": "Twitter",
-      "description": "Service monitoring tools at <span class=\"bold\">Twitter Observability</span>.",
-      "roles": [
-        {
-          "description": "Full-stack AI tools at <span class=\"bold\">Microsoft</span> under <a href=\"https://lobe.ai/\" target=\"_blank\" class=\"underlineLink\">Lobe.ai</a>, a no-code tool that allows users to build, train, and visualize deep-learning models.",
-          "time": "May 2020 - Aug 2020"
-        }
-      ]
-    },
-    {
-      "name": "Microsoft",
-      "description": "Full-stack AI visualization tools for <a href=\"https://lobe.ai/\" target=\"_blank\" class=\"underlineLink\">Lobe.ai</a> at <span class=\"bold\">Microsoft</span>.",
-      "roles": [
-        {
-          "description": "Built full-stack AI tools at Microsoft under <a href=\"https://lobe.ai/\" target=\"_blank\" class=\"underlineLink\">Lobe.ai</a>, a no-code tool that allows users to build, train, and visualize deep-learning models.",
-          "time": "May 2020 - Aug 2020"
-        }
-      ]
-    },
-    {
-      "name": "Cisco Systems",
-      "title": "Software Engineering Intern",
-      "description": "Data analytics tools at <span class=\"bold\">Cisco Customer Experience</span>.",
-      "roles": [
-        {
-          
-          "time": "May 2019 - Aug 2019"
-        }
-      ]
-    },
-    {
-      "name": "Waterline Data",
-      "title": "Software Engineering & UX Design Intern",
-      "description": "Enterprise data catalog software at <span class=\"bold\">Waterline Data</span>.",
-      "roles": [
-        {
-          
-          "time": "Jun 2018 - Aug 2018"
-        }
-      ]
-    }
+    "Full-stack AI tools at <span class=\"bold\">Microsoft</span> under <a href=\"https://lobe.ai/\" target=\"_blank\" class=\"underlineLink\">Lobe.ai</a>, a no-code tool that allows users to build, train, and visualize deep-learning models.",
+    "Full-stack AI visualization tools for <a href=\"https://lobe.ai/\" target=\"_blank\" class=\"underlineLink\">Lobe.ai</a> at <span class=\"bold\">Microsoft</span>.",
+    "Data analytics tools at <span class=\"bold\">Cisco Customer Experience</span>.",
+    "Enterprise data catalog software at <span class=\"bold\">Waterline Data</span>."
   ],
   "communities": [
-    {
-      "name": "Cal Blueprint",
-      "url": "https://calblueprint.org/",
-      "description": "Directing pro-bono software projects for nonprofits at <a href=\"https://calblueprint.org/\" target=\"_blank\" class=\"underlineLink\">Cal Blueprint</a>."
-    },
-    {
-      "description": "Leading a team to plan, build, and deliver an organization portal for <a href=\"https://oaklandgenesis.org/\" target=\"_blank\" class=\"underlineLink\">Oakland Genesis Soccer Club</a>."
-    },
-    {
-      "description": "Developing an online classroom platform for <a href=\"https://un-loop.org/\" target=\"_blank\" class=\"underlineLink\">Unloop</a>."
-    },
-    {
-      "description": "Teaching afterschool CS programs at East Bay middle & high schools with <a href=\"https://berkeleyanova.org/\" target=\"_blank\" class=\"underlineLink\">Berkeley ANova</a>."
-    },
-    {
-      "name": "Berkeley ANova",
-      "url": "https://www.berkeleyanova.org/",
-      "mission": "<a href=\"https://www.berkeleyanova.org/\" target=\"_blank\" class=\"underlineLink\">ANova</a> aims to make CS education more equitable, available, and achievable for students of all backgrounds.",
-      "roles": [
-        {
-          "title": "CS Instructor",
-          "description": "Instructed afterschool programs teaching programming and web design at Willard Middle School and Fremont High School.",
-          "time": "Aug 2019 - present"
-        }
-      ]
-    }
+    "Directed pro-bono software projects for nonprofits at <a href=\"https://calblueprint.org/\" target=\"_blank\" class=\"underlineLink\">Cal Blueprint</a>.",
+    "Led a team to plan, build, and deliver an organization portal for <a href=\"https://oaklandgenesis.org/\" target=\"_blank\" class=\"underlineLink\">Oakland Genesis Soccer Club</a>.",
+    "Developed an online classroom platform for <a href=\"https://un-loop.org/\" target=\"_blank\" class=\"underlineLink\">Unloop</a>.",
+    "Taught afterschool CS programs at East Bay middle & high schools with <a href=\"https://berkeleyanova.org/\" target=\"_blank\" class=\"underlineLink\">Berkeley ANova</a>."
   ]
 }
