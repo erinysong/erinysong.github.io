@@ -20,7 +20,7 @@ const projects = [
       "category": "Security",
       "context": "For my computer security class, my partner and I built a client program allowing users to make login accounts, load/store/edit files, share files to other users, and revoke file access privileges.",
       "description": "To enforce security, we used public key encryption, HMACs, and digital signatures. We later implemented security against XSS, CSRF, and SQL injection attacks on a web app version of the program.",
-      "tools": "Golang"
+      "tools": "Golang",
     },
     {
       "name": "OS Kernel",
@@ -37,18 +37,20 @@ class Projects extends React.Component {
 		return (
 			<div className="fadein-page">
 				<p className="subtitle"><span className="highlight">some things i've built</span></p>
-				{projects.map((project) => (
-					<div className="flexContainer projectSection">
-						<img src= {project.img} alt="project img" className="projectImg" />
-						<div className="projectDescription">
-							<h1 className="projectTitle">{project.name}</h1>
-              <p className="projectTools">{project.tools}</p>
-							<p>{ReactHtmlParser(project.context)}</p>
-							<p>{project.description}</p>
-							<p>{ReactHtmlParser(project.link)}</p>
-						</div>
-					</div>
-				))}
+        <div className="projectList">
+          {projects.map((project) => (
+            <div className="flexContainer projectSection">
+              <img src= {project.img} alt="project img" className="projectImg" />
+              <div className="projectDescription">
+                <h1 className="projectTitle">{project.name}</h1>
+                <p className="projectTools">{project.tools}</p>
+                <p>{ReactHtmlParser(project.context)}</p>
+                <p>{project.description}</p>
+                <p>{ReactHtmlParser(project.link)}</p>
+              </div>
+            </div>
+          ))}
+        </div>
 			</div>
 		)
 	}

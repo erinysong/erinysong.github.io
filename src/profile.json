@@ -1,31 +1,43 @@
 {
   "experience": [
     {
-      "name": "Microsoft",
+      "name": "Twitter",
+      "description": "Service monitoring tools at <span class=\"bold\">Twitter Observability</span>.",
       "roles": [
         {
-          "title": "Software Engineering Intern",
-          "description": "Building full-stack AI tools for <a href=\"https://lobe.ai/\" target=\"_blank\" class=\"underlineLink\">Lobe.ai</a>, a no-code tool that allows users to build, train, and visualize deep-learning models.",
-          "time": "May 2020 - present"
+          "description": "Full-stack AI tools at <span class=\"bold\">Microsoft</span> under <a href=\"https://lobe.ai/\" target=\"_blank\" class=\"underlineLink\">Lobe.ai</a>, a no-code tool that allows users to build, train, and visualize deep-learning models.",
+          "time": "May 2020 - Aug 2020"
+        }
+      ]
+    },
+    {
+      "name": "Microsoft",
+      "description": "Full-stack AI visualization tools for <a href=\"https://lobe.ai/\" target=\"_blank\" class=\"underlineLink\">Lobe.ai</a> at <span class=\"bold\">Microsoft</span>.",
+      "roles": [
+        {
+          "description": "Built full-stack AI tools at Microsoft under <a href=\"https://lobe.ai/\" target=\"_blank\" class=\"underlineLink\">Lobe.ai</a>, a no-code tool that allows users to build, train, and visualize deep-learning models.",
+          "time": "May 2020 - Aug 2020"
         }
       ]
     },
     {
       "name": "Cisco Systems",
+      "title": "Software Engineering Intern",
+      "description": "Data analytics tools at <span class=\"bold\">Cisco Customer Experience</span>.",
       "roles": [
         {
-          "title": "Software Engineering Intern",
-          "description": "Developed internal data analytics tools visualizing sales data, product renewal rates, and customer behavior.",
+          
           "time": "May 2019 - Aug 2019"
         }
       ]
     },
     {
       "name": "Waterline Data",
+      "title": "Software Engineering & UX Design Intern",
+      "description": "Enterprise data catalog software at <span class=\"bold\">Waterline Data</span>.",
       "roles": [
         {
-          "title": "Software Engineering & UX Design Intern",
-          "description": "Developed error tracking system for enterprise data catalog. Designed product features for data visualization and analysis.",
+          
           "time": "Jun 2018 - Aug 2018"
         }
       ]
@@ -35,19 +47,16 @@
     {
       "name": "Cal Blueprint",
       "url": "https://calblueprint.org/",
-      "mission": "<a href=\"https://calblueprint.org/\" target=\"_blank\" class=\"underlineLink\">Blueprint</a> is a student organization that aims to make technology accessible and useful for social good.",
-      "roles": [
-        {
-          "title": "Project Lead",
-          "description": "Lead a team of developers and designers in developing pro-bono web/mobile apps for nonprofits. Currently faciliatating discussions with potential partner organizations.",
-          "time": "May 2020 - present"
-        },
-        {
-          "title": "Project Developer & Outreach Director",
-          "description": "Worked with student-led teams to develop web and mobile apps for nonprofits throughout a year-long product cycle.",
-          "time": "Aug 2018 - May 2020"
-        }
-      ]
+      "description": "Directing pro-bono software projects for nonprofits at <a href=\"https://calblueprint.org/\" target=\"_blank\" class=\"underlineLink\">Cal Blueprint</a>."
+    },
+    {
+      "description": "Leading a team to plan, build, and deliver an organization portal for <a href=\"https://oaklandgenesis.org/\" target=\"_blank\" class=\"underlineLink\">Oakland Genesis Soccer Club</a>."
+    },
+    {
+      "description": "Developing an online classroom platform for <a href=\"https://un-loop.org/\" target=\"_blank\" class=\"underlineLink\">Unloop</a>."
+    },
+    {
+      "description": "Teaching afterschool CS programs at East Bay middle & high schools with <a href=\"https://berkeleyanova.org/\" target=\"_blank\" class=\"underlineLink\">Berkeley ANova</a>."
     },
     {
       "name": "Berkeley ANova",

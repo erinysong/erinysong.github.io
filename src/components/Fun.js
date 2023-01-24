@@ -4,55 +4,40 @@ class Fun extends React.Component {
     render() {
         return (
             <div className="aboutColumn fadein-page">
-                <p className="subtitle aboutSubtitle"><span className="highlight">a hodgepodge list of things i enjoy</span></p>
+                <p className="subtitle aboutSubtitle"><span className="highlight">let's talk about...</span></p>
+
                 <div className="subsection">
-                    <h1>Books</h1>
-                    <p className="aboutListItem">Hitchhiker’s Guide to the Galaxy</p>
-                    <p className="aboutListItem">Catch-22</p>
-                </div>
-                
-                <div className="subsection">
-                    <h1>Blogs/Online Media</h1>
-                    <p className="aboutListItem">Wait But Why</p>
-                    <p className="aboutListItem">Hyperbole and a Half</p>
-                    <p className="aboutListItem">Nicky Case</p>
-                    <p className="aboutListItem">TV Tropes</p>
+                    <h1>storytelling & media</h1>
+                    <p className="aboutListItem">
+                        I love how media and its different forms let us connect and communicate with 
+                        each other. Books, art, films, games, videos, journalism, music, theater! 
+                        Tell me about stories that matter to you. 
+                    </p>
                 </div>
 
                 <div className="subsection">
-                    <h1>Movies</h1>
-                    <p className="aboutListItem">Logan</p>
-                    <p className="aboutListItem">Spider-man: Into the Spider-Verse</p>
-                </div>
-                
-                <div className="subsection">
-                    <h1>TV/Netflix</h1>
-                    <p className="aboutListItem">Bojack Horseman</p>
-                    <p className="aboutListItem">what. and Make Happy by Bo Burnham</p>
-                    <p className="aboutListItem">Jigsaw by Daniel Sloss</p>
+                    <h1>libraries & public spaces</h1>
+                    <p className="aboutListItem">
+                        I try to visit at least one library or bookstore whenever I visit a new city. 
+                        There's something inherently grounding in simply existing in one.
+                    </p>
                 </div>
 
                 <div className="subsection">
-                    <h1>Anime</h1>
-                    <p className="aboutListItem">Fate/Zero</p>
-                    <p className="aboutListItem">FMA: Brotherhood</p>
-                    <p className="aboutListItem">Haikyuu!!</p>
+                    <h1>information science & architecture</h1>
+                    <p className="aboutListItem">
+                        How do people process and interact with information? How do we design 
+                        experiences that allow us to access different information?
+                    </p>
                 </div>
-                
+
                 <div className="subsection">
-                    <h1>Subjects</h1>
-                    <p className="aboutListItem">Inclusive Design</p>
-                    <p className="aboutListItem">Behavioral Psychology</p>
-                    <p className="aboutListItem">Education</p>
-                    <p className="aboutListItem">Film and Media Studies</p>
-                </div>
-                
-                <div className="subsection">
-                    <h1>Hobbies</h1>
-                    <p className="aboutListItem">Cooking (especially for other people!)</p>
-                    <p className="aboutListItem">Playing Board Games</p>
-                    <p className="aboutListItem">Dogspotting</p>
-                    <p className="aboutListItem">Writing</p>
+                    <h1>social equity & justice</h1>
+                    <p className="aboutListItem">
+                        Community involvement (especially at a local level) matters a lot to me. 
+                        I'm expanding and developing my understanding of social issues and equity, 
+                        but I want it to be at the core of whatever I do.
+                    </p>
                 </div>
             </div>
         )

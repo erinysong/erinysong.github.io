@@ -22,8 +22,11 @@ class About extends React.Component {
                     <div className="aboutDescription">
                         <h1>Nice to meet ya! I'm Erin.</h1>
                         <p>
-                            I believe in building solutions (tech and non-tech!) that positively impact people's lives and help us better understand the world and each other.
-                        Currently I'm a rising senior at UC Berkeley studying computer science, with minors in data science & human rights.
+                            I believe in building things that strengthen communities, expand access to resources,
+                             and help us better understand the world and each other. 
+                        </p>
+                        <p>
+                        I graduated from UC Berkeley in 2021, with a major in computer science and minors in data science & human rights.
                         </p>
                         <p>Wanna chat or grab a cup of tea? Feel free to reach me at erinsong@berkeley.edu - I'd love to get to know you!</p>
                         <div className="flexContainer">
@@ -37,7 +40,7 @@ class About extends React.Component {
                 <Router>
                     <div>
                         <div class="navbar navbar-about">
-                            <NavLink exact to="/about" activeClassName="activeLink">hobbies</NavLink>
+                            <NavLink exact to="/about" activeClassName="activeLink">topics</NavLink>
                             <NavLink to="/about/now" className="navItem-about" activeClassName="activeLink">now</NavLink>
                         </div>
 

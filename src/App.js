@@ -19,7 +19,6 @@ class App extends Component {
           <div>
             <div class="navbar navbar-main">
               <NavLink exact to="/" activeClassName="activeLink">home</NavLink>
-              <NavLink to="/projects" className="navItem" activeClassName="activeLink">projects</NavLink>
               <NavLink to="/about" className="navItem" activeClassName="activeLink">about</NavLink>
             </div>
 
@@ -45,8 +44,8 @@ class App extends Component {
 const HomePage = () => 
 <div>
   <div class="introSection fadein-page">
-    <h1 className="introTitle">Hi! I'm Erin.</h1>
-    <p className="introDescription">I'm a mission-driven developer looking to empower people and share stories.</p>
+    <h1 className="introTitle">Hi there! I'm Erin.</h1>
+    <p className="introDescription">I like making things that support communities and share stories.</p>
   </div>
   <Experience/>
 </div>

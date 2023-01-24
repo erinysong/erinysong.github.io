@@ -1,7 +1,3 @@
-.App {
-  
-}
-
 :root {
   --hoverLinkColor: #add6ff;
   --highlightColor: #FCD1C4;
@@ -10,7 +6,7 @@
 
 body {
   font-family: "Freight Sans", -apple-system, sans-serif;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 500;
 }
 
@@ -30,7 +26,7 @@ body {
 } 
 
 h1 {
-  font-size: 22px;
+  font-size: 18px;
   font-family: "Freight Text", "sans-serif";
   font-weight: 700;
   /*color: #7368FF;*/
@@ -88,7 +84,7 @@ a:hover {
 
 .navbar-main {
   justify-content: flex-end;
-  margin-bottom: 120px;
+  margin-bottom: 100px;
   margin-top: 25px;
 }
 
@@ -115,26 +111,20 @@ a:hover {
   border-top: 1px solid #ccc;
 }
 
-.introSection {
-  height: 80vh;
-}
-
 .introTitle {
-  font-size: 48px;
+  font-size: 24px;
   font-family: "Freight Text";
-  padding-top: 100px;
   color: black;
 }
 
 .introDescription {
-  font-size: 32px;
+  font-size: 16px;
   font-family: "Freight Text";
   max-width: 530px;
-  line-height:44px;
 }
 
 .subtitle {
-  font-size: 22px;
+  font-size: 16px;
   font-weight: 600;
   max-width: 450px;
 }
@@ -149,7 +139,7 @@ a:hover {
 }
 
 .subsection {
-  margin-bottom: 25px;
+  margin-bottom: 12px;
 }
 
 .roleTitle {
@@ -194,6 +184,28 @@ a:hover {
   background-color: #F8F8F8;
   padding: 10px 10px;
   margin-top: 40px;
+}
+
+.projectList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+@media only screen and (max-width: 949px) {
+  .projectSection {
+    width: 400px;
+    align-self: center;
+    min-height: 620px;
+  }
+
+  .projectImg {
+    margin-right: 0;
+  }
+
+  .projectDescription {
+    align-content: flex-start;
+  }
 }
 
 .projectTitle {
@@ -260,9 +272,14 @@ a:hover {
 }
 
 .aboutSubtitle {
-  font-size: 20px;
+  font-size: 16px;
 }
 
 .socialLink {
   margin-right: 20px;
+}
+
+
+.bold {
+  font-weight: 600;
 }
