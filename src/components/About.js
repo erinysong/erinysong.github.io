@@ -8,7 +8,7 @@ import {
     NavLink
   } from "react-router-dom";
 import profile from '../img/profile.jpg'
-import resume from '../assets/Erin_Song_Resume.pdf'
+import resume from '../assets/Erin_Song_Resume_2023.pdf'
 
 class About extends React.Component {
     render() {
