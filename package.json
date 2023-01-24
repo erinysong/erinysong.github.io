@@ -1,5 +1,6 @@
 {
   "name": "erinysong.github.io",
+  "homepage": "https://erinysong.github.io/",
   "version": "0.1.0",
   "private": true,
   "homepage": "https://erinysong.github.io",
@@ -20,8 +21,8 @@
     "reactstrap": "^8.4.1"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "react-scripts --openssl-legacy-provider start",
+    "build": "react-scripts --openssl-legacy-provider build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "yarn run build",
