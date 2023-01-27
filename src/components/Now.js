@@ -22,7 +22,7 @@ class Now extends React.Component {
                     </p>
                     <p className="aboutListItem">
                         Less frequently, I volunteer at community events at the <a href = "https://wingluke.org/" target="_blank" rel="noopener noreferrer" className="underlineLink">Wing Luke Museum</a>,
-                        which also has wonderful people.
+                        where I work alongside people who are equally wonderful.
                     </p> 
                 </div>
 

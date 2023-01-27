@@ -26,7 +26,7 @@ class About extends React.Component {
                              and help us better understand the world and each other. 
                         </p>
                         <p>
-                        I graduated from UC Berkeley in 2021, with a major in computer science and minors in data science & human rights.
+                        I graduated from UC Berkeley in 2021, with a degree in computer science and minors in data science & human rights.
                         </p>
                         <p>Wanna chat or grab a cup of tea? Feel free to reach me at erinsong@berkeley.edu - I'd love to get to know you!</p>
                         <div className="flexContainer">
