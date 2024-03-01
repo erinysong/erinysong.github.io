@@ -10,7 +10,7 @@ class Now extends React.Component {
                 <div className="subsection">
                     <h1>work/career</h1>
                     <p className="aboutListItem">
-                        Currently working on domain management tools at the .gov team as a software engineering fellow at the U.S. Digital Corps.
+                        Currently working on domain management tools at the .gov team as a SWE fellow at the U.S. Digital Corps.
                     </p>
                 </div>
                 
