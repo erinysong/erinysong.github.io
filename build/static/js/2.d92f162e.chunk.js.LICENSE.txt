@@ -11,8 +11,6 @@ object-assign
  * @license  MIT
  */
 
-/*! safe-buffer. MIT License. Feross Aboukhadijeh <https://feross.org/opensource> */
-
 /** @license React v0.19.1
  * scheduler.production.min.js
  *
