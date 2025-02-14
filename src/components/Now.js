@@ -26,14 +26,6 @@ class Now extends React.Component {
                 </div> */}
 
                 <div className="subsection">
-                    <h1>books/shows/etc...</h1>
-                    <p className="aboutListItem">
-                        I try to record my unprofessional thoughts on the books I read on 
-                        this <a href = "https://airtable.com/shrEmK1EQ3cBs79mP/tblOq9Rgs0vaglxVR" target="_blank" rel="noopener noreferrer" className="underlineLink">Airtable</a>.                         
-                    </p>
-                </div>
-
-                <div className="subsection">
                     <h1>life in general</h1>
                     <p className="aboutListItem">Continuing to learn Korean, my ancestral language.</p>
                     <p className="aboutListItem">Crocheting several stuffed shrimp to gift my friends.</p>
